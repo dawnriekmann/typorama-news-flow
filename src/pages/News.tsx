@@ -96,7 +96,7 @@ const News = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-10 text-foreground leading-tight font-nexa">
                 {section.title}
               </h2>
-              <p className="text-2xl leading-relaxed text-foreground mb-10 font-light font-nexa">
+              <p className="text-3xl leading-relaxed text-foreground mb-10 font-light font-nexa">
                 {section.content}
               </p>
             </section>
