@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button';
 import { ArrowLeftIcon, ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
+import StarRating from '@/components/StarRating';
 
 const News = () => {
   const breadcrumbItems = [
@@ -65,6 +66,11 @@ const News = () => {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-foreground font-nexa">
             Bitcoin ETF Zulassung: Institutioneller Durchbruch für Kryptowährungen
           </h1>
+
+          {/* Star Rating */}
+          <div className="mb-8">
+            <StarRating rating={4.5} reviewCount={127} />
+          </div>
 
           {/* Meta information */}
           <div className="flex flex-wrap items-center gap-8 text-muted-foreground text-2xl mb-10 font-nexa">
