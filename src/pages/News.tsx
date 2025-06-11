@@ -1,3 +1,4 @@
+
 import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
@@ -44,21 +45,21 @@ const News = () => {
     <div className="min-h-screen bg-background text-foreground font-nexa">
       <Header showBreadcrumb={true} breadcrumbItems={breadcrumbItems} />
       
-      <div className="max-w-6xl mx-auto px-8 py-12">
+      <div className="max-w-6xl mx-auto px-8 py-8">
         {/* Article header */}
-        <header className="mb-16">
+        <header className="mb-10">
           {/* Title */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-foreground font-nexa">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground font-nexa">
             Bitcoin ETF Zulassung: Institutioneller Durchbruch für Kryptowährungen
           </h1>
 
           {/* Star Rating */}
-          <div className="mb-8">
+          <div className="mb-6">
             <StarRating rating={4.5} reviewCount={127} />
           </div>
 
           {/* Meta information */}
-          <div className="flex flex-wrap items-center gap-8 text-muted-foreground text-2xl mb-10 font-nexa">
+          <div className="flex flex-wrap items-center gap-6 text-muted-foreground text-2xl mb-8 font-nexa">
             <span className="font-medium">Von Dr. Sarah Müller</span>
             <span>15. Januar 2025, 14:30 Uhr</span>
             <div className="flex items-center gap-3">
@@ -69,13 +70,13 @@ const News = () => {
         </header>
 
         {/* Main image */}
-        <figure className="mb-16">
+        <figure className="mb-12">
           <img 
             src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&h=700&fit=crop" 
             alt="Bitcoin ETF Zulassung"
             className="w-full h-auto rounded-lg shadow-lg"
           />
-          <figcaption className="mt-6 text-xl text-muted-foreground leading-relaxed font-nexa">
+          <figcaption className="mt-4 text-xl text-muted-foreground leading-relaxed font-nexa">
             Die SEC-Zulassung von Bitcoin ETFs markiert einen Wendepunkt für institutionelle Krypto-Investments.
           </figcaption>
         </figure>
@@ -83,11 +84,11 @@ const News = () => {
         {/* Article content */}
         <article className="max-w-none">
           {articleSections.map((section, index) => (
-            <section key={index} className="mb-20">
-              <h2 className="text-4xl md:text-5xl font-bold mb-10 text-foreground leading-tight font-nexa">
+            <section key={index} className="mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground leading-tight font-nexa">
                 {section.title}
               </h2>
-              <p className="text-2xl leading-relaxed text-foreground mb-10 font-light font-nexa">
+              <p className="text-2xl leading-relaxed text-foreground mb-6 font-light font-nexa">
                 {section.content}
               </p>
             </section>
@@ -95,9 +96,9 @@ const News = () => {
         </article>
 
         {/* Author info */}
-        <div className="mt-20 pt-10 border-t border-border">
-          <div className="bg-muted/30 rounded-lg p-10">
-            <h3 className="text-3xl font-semibold mb-6 text-foreground font-nexa">Über die Autorin</h3>
+        <div className="mt-16 pt-8 border-t border-border">
+          <div className="bg-muted/30 rounded-lg p-8">
+            <h3 className="text-3xl font-semibold mb-4 text-foreground font-nexa">Über die Autorin</h3>
             <p className="text-2xl text-foreground leading-relaxed font-nexa">
               <strong>Dr. Sarah Müller</strong> ist Senior Finanzanalystin bei FinanceToday mit über 15 Jahren Erfahrung 
               in der Finanzanalyse. Sie promovierte in Volkswirtschaftslehre mit Spezialisierung auf 
@@ -107,16 +108,16 @@ const News = () => {
         </div>
 
         {/* Sources */}
-        <div className="mt-16 text-xl text-muted-foreground font-nexa">
-          <h4 className="font-semibold mb-6 text-foreground text-3xl">Quellen:</h4>
-          <ul className="space-y-3 leading-relaxed">
+        <div className="mt-12 text-xl text-muted-foreground font-nexa">
+          <h4 className="font-semibold mb-4 text-foreground text-3xl">Quellen:</h4>
+          <ul className="space-y-2 leading-relaxed">
             <li>• Securities and Exchange Commission (SEC)</li>
             <li>• Bloomberg Terminal - Marktdaten</li>
             <li>• CoinGecko API</li>
             <li>• Grayscale Investments</li>
             <li>• BlackRock iShares</li>
           </ul>
-          <p className="mt-8 text-xl">Letztes Update: 15. Januar 2025, 16:45 Uhr</p>
+          <p className="mt-6 text-xl">Letztes Update: 15. Januar 2025, 16:45 Uhr</p>
         </div>
       </div>
     </div>
