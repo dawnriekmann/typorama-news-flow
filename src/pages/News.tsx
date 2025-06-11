@@ -1,4 +1,5 @@
 
+
 import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
@@ -94,34 +95,10 @@ const News = () => {
             </section>
           ))}
         </article>
-
-        {/* Author info */}
-        <div className="mt-16 pt-8 border-t border-border">
-          <div className="bg-muted/30 rounded-lg p-8">
-            <h3 className="text-3xl font-semibold mb-4 text-foreground font-nexa">Über die Autorin</h3>
-            <p className="text-2xl text-foreground leading-relaxed font-nexa">
-              <strong>Dr. Sarah Müller</strong> ist Senior Finanzanalystin bei FinanceToday mit über 15 Jahren Erfahrung 
-              in der Finanzanalyse. Sie promovierte in Volkswirtschaftslehre mit Spezialisierung auf 
-              Finanzmarktregulierung und Kryptowährungen.
-            </p>
-          </div>
-        </div>
-
-        {/* Sources */}
-        <div className="mt-12 text-xl text-muted-foreground font-nexa">
-          <h4 className="font-semibold mb-4 text-foreground text-3xl">Quellen:</h4>
-          <ul className="space-y-2 leading-relaxed">
-            <li>• Securities and Exchange Commission (SEC)</li>
-            <li>• Bloomberg Terminal - Marktdaten</li>
-            <li>• CoinGecko API</li>
-            <li>• Grayscale Investments</li>
-            <li>• BlackRock iShares</li>
-          </ul>
-          <p className="mt-6 text-xl">Letztes Update: 15. Januar 2025, 16:45 Uhr</p>
-        </div>
       </div>
     </div>
   );
 };
 
 export default News;
+
