@@ -7,25 +7,25 @@ interface StarRatingProps {
   reviewCount?: number;
 }
 
-const StarRating = ({ rating, maxRating = 5, reviewCount }: StarRatingProps) => {
+const StarRating = ({ rating, maxRating = 5 }: StarRatingProps) => {
   const fullStars = Math.floor(rating);
   const hasHalfStar = rating % 1 !== 0;
   const emptyStars = maxRating - fullStars - (hasHalfStar ? 1 : 0);
 
   return (
-    <div className="flex items-center space-x-2">
-      <div className="flex items-center space-x-0.5">
+    <div className="flex items-center space-x-3">
+      <div className="flex items-center space-x-1">
         {/* Full stars */}
         {Array.from({ length: fullStars }).map((_, i) => (
-          <Star key={`full-${i}`} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+          <Star key={`full-${i}`} className="w-8 h-8 fill-yellow-400 text-yellow-400" />
         ))}
         
         {/* Half star */}
         {hasHalfStar && (
           <div className="relative">
-            <Star className="w-4 h-4 text-gray-300" />
+            <Star className="w-8 h-8 text-gray-300" />
             <Star 
-              className="w-4 h-4 fill-yellow-400 text-yellow-400 absolute top-0 left-0"
+              className="w-8 h-8 fill-yellow-400 text-yellow-400 absolute top-0 left-0"
               style={{ clipPath: 'inset(0 50% 0 0)' }}
             />
           </div>
@@ -33,17 +33,12 @@ const StarRating = ({ rating, maxRating = 5, reviewCount }: StarRatingProps) => 
         
         {/* Empty stars */}
         {Array.from({ length: emptyStars }).map((_, i) => (
-          <Star key={`empty-${i}`} className="w-4 h-4 text-gray-300" />
+          <Star key={`empty-${i}`} className="w-8 h-8 text-gray-300" />
         ))}
       </div>
       
-      <span className="text-sm text-muted-foreground">
+      <span className="text-2xl text-muted-foreground font-nexa">
         {rating.toFixed(1)}/5
-        {reviewCount && (
-          <span className="ml-1">
-            (basierend auf {reviewCount} Expertenbewertungen)
-          </span>
-        )}
       </span>
     </div>
   );
