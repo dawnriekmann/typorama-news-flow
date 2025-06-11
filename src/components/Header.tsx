@@ -1,4 +1,5 @@
 
+
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb';
 import { Separator } from '@/components/ui/separator';
 
@@ -27,36 +28,10 @@ const Header = ({ showBreadcrumb = false, breadcrumbItems = [] }: HeaderProps) =
             <div className="mt-3 w-24 h-0.5 bg-gradient-to-r from-finance-primary to-finance-secondary mx-auto rounded-full"></div>
           </div>
         </div>
-        
-        {/* Simple Divider */}
-        {showBreadcrumb && breadcrumbItems.length > 0 && (
-          <>
-            <Separator className="my-4" />
-            <div className="pb-4">
-              <Breadcrumb>
-                <BreadcrumbList>
-                  {breadcrumbItems.map((item, index) => (
-                    <BreadcrumbItem key={index}>
-                      {index === breadcrumbItems.length - 1 ? (
-                        <BreadcrumbPage>{item.label}</BreadcrumbPage>
-                      ) : (
-                        <>
-                          <BreadcrumbLink href={item.href || '#'}>
-                            {item.label}
-                          </BreadcrumbLink>
-                          <BreadcrumbSeparator />
-                        </>
-                      )}
-                    </BreadcrumbItem>
-                  ))}
-                </BreadcrumbList>
-              </Breadcrumb>
-            </div>
-          </>
-        )}
       </div>
     </header>
   );
 };
 
 export default Header;
+
