@@ -42,62 +42,62 @@ const News = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 font-sans">
+    <div className="min-h-screen bg-background text-foreground font-sans">
       <Header showBreadcrumb={true} breadcrumbItems={breadcrumbItems} />
       
-      <div className="max-w-4xl mx-auto px-6 py-8">
+      <div className="max-w-5xl mx-auto px-8 py-12">
         {/* Back button */}
-        <Button variant="ghost" onClick={() => window.history.back()} className="mb-8 text-gray-600 hover:text-gray-800">
-          <ArrowLeftIcon className="w-4 h-4 mr-2" />
+        <Button variant="ghost" onClick={() => window.history.back()} className="mb-8 text-muted-foreground hover:text-foreground text-lg">
+          <ArrowLeftIcon className="w-5 h-5 mr-2" />
           Zurück zur Übersicht
         </Button>
 
         {/* Article header */}
-        <header className="mb-12">
+        <header className="mb-16">
           {/* Category */}
-          <div className="mb-4">
-            <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-50 rounded">
+          <div className="mb-6">
+            <span className="inline-block px-4 py-2 text-lg font-medium text-blue-600 bg-blue-50 rounded-lg">
               KRYPTO
             </span>
           </div>
 
           {/* Title */}
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6 text-gray-900">
+          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-8 text-foreground">
             Bitcoin ETF Zulassung: Institutioneller Durchbruch für Kryptowährungen
           </h1>
 
           {/* Meta information */}
-          <div className="flex flex-wrap items-center gap-6 text-gray-600 text-sm mb-8">
-            <span>Von Dr. Sarah Müller</span>
+          <div className="flex flex-wrap items-center gap-8 text-muted-foreground text-lg mb-10">
+            <span className="font-medium">Von Dr. Sarah Müller</span>
             <span>15. Januar 2025, 14:30 Uhr</span>
-            <div className="flex items-center gap-1">
-              <ClockIcon className="w-4 h-4" />
+            <div className="flex items-center gap-2">
+              <ClockIcon className="w-5 h-5" />
               <span>8 Min. Lesezeit</span>
             </div>
           </div>
         </header>
 
         {/* Main image */}
-        <figure className="mb-12">
+        <figure className="mb-16">
           <img 
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=600&fit=crop" 
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&h=700&fit=crop" 
             alt="Bitcoin ETF Zulassung"
-            className="w-full h-auto rounded-lg"
+            className="w-full h-auto rounded-xl shadow-lg"
           />
-          <figcaption className="mt-3 text-sm text-gray-600 text-center">
+          <figcaption className="mt-4 text-lg text-muted-foreground text-center leading-relaxed">
             Die SEC-Zulassung von Bitcoin ETFs markiert einen Wendepunkt für institutionelle Krypto-Investments. 
-            <span className="block mt-1 text-xs">Getty Images / Verwendung mit Lizenz</span>
+            <span className="block mt-2 text-base">Getty Images / Verwendung mit Lizenz</span>
           </figcaption>
         </figure>
 
         {/* Article content */}
-        <article className="prose prose-lg max-w-none">
+        <article className="prose prose-xl max-w-none">
           {articleSections.map((section, index) => (
-            <section key={index} className="mb-10">
-              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
+            <section key={index} className="mb-14">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground leading-tight">
                 {section.title}
               </h2>
-              <p className="text-lg leading-relaxed text-gray-800 mb-6">
+              <p className="text-xl leading-relaxed text-foreground mb-8 font-light">
                 {section.content}
               </p>
             </section>
@@ -105,10 +105,10 @@ const News = () => {
         </article>
 
         {/* Author info */}
-        <div className="mt-16 pt-8 border-t border-gray-200">
-          <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold mb-2">Über die Autorin</h3>
-            <p className="text-gray-700">
+        <div className="mt-20 pt-10 border-t border-border">
+          <div className="bg-muted/30 rounded-xl p-8">
+            <h3 className="text-2xl font-semibold mb-4 text-foreground">Über die Autorin</h3>
+            <p className="text-lg text-foreground leading-relaxed">
               <strong>Dr. Sarah Müller</strong> ist Senior Finanzanalystin bei FinanceToday mit über 15 Jahren Erfahrung 
               in der Finanzanalyse. Sie promovierte in Volkswirtschaftslehre mit Spezialisierung auf 
               Finanzmarktregulierung und Kryptowährungen.
@@ -117,16 +117,16 @@ const News = () => {
         </div>
 
         {/* Sources */}
-        <div className="mt-8 text-sm text-gray-600">
-          <h4 className="font-semibold mb-2">Quellen:</h4>
-          <ul className="space-y-1">
+        <div className="mt-12 text-lg text-muted-foreground">
+          <h4 className="font-semibold mb-4 text-foreground text-xl">Quellen:</h4>
+          <ul className="space-y-2 leading-relaxed">
             <li>• Securities and Exchange Commission (SEC)</li>
             <li>• Bloomberg Terminal - Marktdaten</li>
             <li>• CoinGecko API</li>
             <li>• Grayscale Investments</li>
             <li>• BlackRock iShares</li>
           </ul>
-          <p className="mt-4 text-xs">Letztes Update: 15. Januar 2025, 16:45 Uhr</p>
+          <p className="mt-6 text-base">Letztes Update: 15. Januar 2025, 16:45 Uhr</p>
         </div>
       </div>
     </div>
