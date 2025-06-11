@@ -57,6 +57,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'finance': {
+					'primary': 'hsl(var(--finance-primary))',
+					'secondary': 'hsl(var(--finance-secondary))',
+					'accent': 'hsl(var(--finance-accent))',
+					'success': 'hsl(var(--finance-success))',
+					'warning': 'hsl(var(--finance-warning))',
+					'error': 'hsl(var(--finance-error))',
+				},
 				'news-category': {
 					'politics': 'hsl(var(--news-category-politics))',
 					'tech': 'hsl(var(--news-category-tech))',

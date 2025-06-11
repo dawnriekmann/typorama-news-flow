@@ -3,16 +3,25 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { MenuIcon, SearchIcon } from 'lucide-react';
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb';
 
-const Header = () => {
+interface HeaderProps {
+  showBreadcrumb?: boolean;
+  breadcrumbItems?: Array<{
+    label: string;
+    href?: string;
+  }>;
+}
+
+const Header = ({ showBreadcrumb = false, breadcrumbItems = [] }: HeaderProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
-    { name: 'Politik', href: '#politik', category: 'politics' },
-    { name: 'Technologie', href: '#tech', category: 'tech' },
-    { name: 'Sport', href: '#sport', category: 'sports' },
-    { name: 'Kultur', href: '#kultur', category: 'culture' },
+    { name: 'Märkte', href: '#maerkte', category: 'markets' },
+    { name: 'Krypto', href: '#krypto', category: 'crypto' },
+    { name: 'Aktien', href: '#aktien', category: 'stocks' },
     { name: 'Wirtschaft', href: '#wirtschaft', category: 'business' },
+    { name: 'Analyse', href: '#analyse', category: 'analysis' },
   ];
 
   return (
@@ -21,21 +30,24 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="font-serif text-2xl font-bold tracking-tight">
-              Typorama News
+            <h1 className="font-serif text-2xl font-bold tracking-tight text-finance-primary">
+              FinanceToday
             </h1>
+            <div className="ml-3 text-xs text-muted-foreground hidden sm:block">
+              Vertrauenswürdige Finanz-Nachrichten
+            </div>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6">
             {navigation.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200 relative group"
+                className="text-sm font-medium text-muted-foreground hover:text-finance-primary transition-colors duration-200 relative group"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-finance-primary transition-all duration-300 group-hover:w-full"></span>
               </a>
             ))}
           </nav>
@@ -60,7 +72,7 @@ const Header = () => {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="text-lg font-medium text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-lg font-medium text-muted-foreground hover:text-finance-primary transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.name}
@@ -75,6 +87,30 @@ const Header = () => {
             </Sheet>
           </div>
         </div>
+        
+        {/* Breadcrumb */}
+        {showBreadcrumb && breadcrumbItems.length > 0 && (
+          <div className="py-3 border-t border-border/50">
+            <Breadcrumb>
+              <BreadcrumbList>
+                {breadcrumbItems.map((item, index) => (
+                  <BreadcrumbItem key={index}>
+                    {index === breadcrumbItems.length - 1 ? (
+                      <BreadcrumbPage>{item.label}</BreadcrumbPage>
+                    ) : (
+                      <>
+                        <BreadcrumbLink href={item.href || '#'}>
+                          {item.label}
+                        </BreadcrumbLink>
+                        <BreadcrumbSeparator />
+                      </>
+                    )}
+                  </BreadcrumbItem>
+                ))}
+              </BreadcrumbList>
+            </Breadcrumb>
+          </div>
+        )}
       </div>
     </header>
   );

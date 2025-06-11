@@ -37,6 +37,14 @@
 
     --radius: 0.5rem;
 
+    /* Finance-specific colors */
+    --finance-primary: 212 100% 40%;
+    --finance-secondary: 212 100% 95%;
+    --finance-accent: 212 100% 87%;
+    --finance-success: 142 71% 45%;
+    --finance-warning: 38 92% 50%;
+    --finance-error: 0 84% 60%;
+
     --news-category-politics: 220 100% 45%;
     --news-category-tech: 142 71% 45%;
     --news-category-sports: 25 95% 53%;
@@ -72,6 +80,8 @@
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
+
+    --finance-primary: 212 100% 50%;
   }
 }
 
@@ -108,11 +118,12 @@
     padding-right: 0.5rem;
     margin-top: 0.25rem;
     font-weight: 400;
+    color: hsl(var(--finance-primary));
   }
   
   /* Pull quote styling */
   .pull-quote {
-    @apply font-serif text-2xl lg:text-3xl leading-tight text-center my-8 px-8 py-6 border-l-4 border-primary bg-secondary/30 italic;
+    @apply font-serif text-2xl lg:text-3xl leading-tight text-center my-8 px-8 py-6 border-l-4 border-finance-primary bg-finance-secondary italic;
   }
 }
 
@@ -140,9 +151,15 @@
   .category-sports { @apply bg-orange-500 text-white; }
   .category-culture { @apply bg-purple-600 text-white; }
   .category-business { @apply bg-gray-800 text-white; }
+  .category-crypto { @apply bg-finance-primary text-white; }
 }
 
 @layer utilities {
+  /* Finance-specific utilities */
+  .text-finance-primary { color: hsl(var(--finance-primary)); }
+  .bg-finance-primary { background-color: hsl(var(--finance-primary)); }
+  .border-finance-primary { border-color: hsl(var(--finance-primary)); }
+  
   /* Fluid typography */
   .text-fluid-sm { font-size: clamp(0.875rem, 2vw, 1rem); }
   .text-fluid-base { font-size: clamp(1rem, 2.5vw, 1.125rem); }
