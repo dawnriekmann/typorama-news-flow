@@ -98,33 +98,27 @@ const News = () => {
       {/* Footer */}
       <footer className="border-t border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col items-center justify-center py-12">
-            {/* Logo Section */}
-            <div className="text-center mb-8">
-              <h2 className="font-serif text-3xl md:text-4xl font-bold tracking-tight text-finance-primary mb-2">
-                FinanceToday
-              </h2>
-              <div className="text-base text-muted-foreground font-light tracking-wide">
-                Vertrauenswürdige Finanz-Nachrichten
+          <div className="flex items-center justify-between py-8">
+            {/* Logo Section - Left */}
+            <div className="flex items-center">
+              <div>
+                <h2 className="font-serif text-2xl md:text-3xl font-bold tracking-tight text-finance-primary">
+                  FinanceToday
+                </h2>
+                <div className="text-sm text-muted-foreground font-light tracking-wide">
+                  Vertrauenswürdige Finanz-Nachrichten
+                </div>
               </div>
-              {/* Decorative underline */}
-              <div className="mt-3 w-20 h-0.5 bg-gradient-to-r from-finance-primary to-finance-secondary mx-auto rounded-full"></div>
             </div>
 
-            {/* Links */}
-            <div className="flex items-center gap-8 text-lg text-muted-foreground font-nexa mb-6">
+            {/* Links - Right */}
+            <div className="flex items-center gap-6 text-base text-muted-foreground font-nexa">
               <a href="#impressum" className="hover:text-finance-primary transition-colors">
                 Impressum
               </a>
-              <span className="text-border">|</span>
               <a href="#datenschutz" className="hover:text-finance-primary transition-colors">
                 Datenschutz
               </a>
-            </div>
-
-            {/* Copyright */}
-            <div className="text-sm text-muted-foreground font-nexa">
-              © 2025 FinanceToday. Alle Rechte vorbehalten.
             </div>
           </div>
         </div>
