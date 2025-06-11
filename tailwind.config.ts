@@ -20,8 +20,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'serif': ['"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
-				'sans': ['"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
+				'serif': ['"Nexa Book"', '"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
+				'sans': ['"Nexa Book"', '"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
+				'nexa': ['"Nexa Book"', '"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

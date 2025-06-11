@@ -87,6 +87,15 @@
   }
 }
 
+@font-face {
+  font-family: 'Nexa Book';
+  src: url('https://fonts.cdnfonts.com/css/nexa') format('woff2'),
+       url('https://fonts.cdnfonts.com/css/nexa') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -94,17 +103,17 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Segoe UI", "Roboto", system-ui, -apple-system, sans-serif;
+    font-family: "Nexa Book", "Segoe UI", "Roboto", system-ui, -apple-system, sans-serif;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
   
   /* Typography */
   .font-serif {
-    font-family: "Segoe UI", "Roboto", system-ui, -apple-system, sans-serif;
+    font-family: "Nexa Book", "Segoe UI", "Roboto", system-ui, -apple-system, sans-serif;
   }
   
   .font-sans {
-    font-family: "Segoe UI", "Roboto", system-ui, -apple-system, sans-serif;
+    font-family: "Nexa Book", "Segoe UI", "Roboto", system-ui, -apple-system, sans-serif;
   }
   
   /* Smooth scrolling */
