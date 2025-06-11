@@ -1,6 +1,4 @@
-
-import { Button } from '@/components/ui/button';
-import { ArrowLeftIcon, ClockIcon } from 'lucide-react';
+import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
 
@@ -47,21 +45,8 @@ const News = () => {
       <Header showBreadcrumb={true} breadcrumbItems={breadcrumbItems} />
       
       <div className="max-w-6xl mx-auto px-8 py-12">
-        {/* Back button */}
-        <Button variant="ghost" onClick={() => window.history.back()} className="mb-8 text-muted-foreground hover:text-foreground text-xl font-nexa">
-          <ArrowLeftIcon className="w-6 h-6 mr-3" />
-          Zurück zur Übersicht
-        </Button>
-
         {/* Article header */}
         <header className="mb-16">
-          {/* Category */}
-          <div className="mb-6">
-            <span className="inline-block px-6 py-3 text-xl font-medium text-blue-600 bg-blue-50 rounded-lg font-nexa">
-              KRYPTO
-            </span>
-          </div>
-
           {/* Title */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-foreground font-nexa">
             Bitcoin ETF Zulassung: Institutioneller Durchbruch für Kryptowährungen
