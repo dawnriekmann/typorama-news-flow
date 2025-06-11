@@ -1,6 +1,8 @@
+
 import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
+import TradingBotTestimonials from '@/components/TradingBotTestimonials';
 
 const News = () => {
   const breadcrumbItems = [
@@ -44,55 +46,67 @@ const News = () => {
     <div className="min-h-screen bg-background text-foreground font-nexa">
       <Header showBreadcrumb={true} breadcrumbItems={breadcrumbItems} />
       
-      <div className="max-w-6xl mx-auto px-8 py-8">
-        {/* Article header */}
-        <header className="mb-10">
-          {/* Title */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground font-nexa">
-            Bitcoin ETF Zulassung: Institutioneller Durchbruch für Kryptowährungen
-          </h1>
+      <div className="max-w-7xl mx-auto px-8 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          {/* Left Column - Main Article */}
+          <div className="lg:col-span-2">
+            {/* Article header */}
+            <header className="mb-10">
+              {/* Title */}
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-foreground font-nexa">
+                Bitcoin ETF Zulassung: Institutioneller Durchbruch für Kryptowährungen
+              </h1>
 
-          {/* Star Rating */}
-          <div className="mb-6">
-            <StarRating rating={4.5} reviewCount={127} />
+              {/* Star Rating */}
+              <div className="mb-6">
+                <StarRating rating={4.5} reviewCount={127} />
+              </div>
+
+              {/* Meta information */}
+              <div className="flex flex-wrap items-center gap-6 text-muted-foreground text-xl mb-8 font-nexa">
+                <span className="font-medium">Von Dr. Sarah Müller</span>
+                <span>15. Januar 2025, 14:30 Uhr</span>
+                <div className="flex items-center gap-3">
+                  <ClockIcon className="w-5 h-5" />
+                  <span>8 Min. Lesezeit</span>
+                </div>
+              </div>
+            </header>
+
+            {/* Main image */}
+            <figure className="mb-12">
+              <img 
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&h=700&fit=crop" 
+                alt="Bitcoin ETF Zulassung"
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+              <figcaption className="mt-4 text-lg text-muted-foreground leading-relaxed font-nexa">
+                Die SEC-Zulassung von Bitcoin ETFs markiert einen Wendepunkt für institutionelle Krypto-Investments.
+              </figcaption>
+            </figure>
+
+            {/* Article content */}
+            <article className="max-w-none">
+              {articleSections.map((section, index) => (
+                <section key={index} className="mb-8">
+                  <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground leading-tight font-nexa">
+                    {section.title}
+                  </h2>
+                  <p className="text-xl leading-relaxed text-foreground mb-4 font-light font-nexa">
+                    {section.content}
+                  </p>
+                </section>
+              ))}
+            </article>
           </div>
 
-          {/* Meta information */}
-          <div className="flex flex-wrap items-center gap-6 text-muted-foreground text-2xl mb-8 font-nexa">
-            <span className="font-medium">Von Dr. Sarah Müller</span>
-            <span>15. Januar 2025, 14:30 Uhr</span>
-            <div className="flex items-center gap-3">
-              <ClockIcon className="w-6 h-6" />
-              <span>8 Min. Lesezeit</span>
+          {/* Right Column - Trading Bot Testimonials */}
+          <div className="lg:col-span-1">
+            <div className="sticky top-32">
+              <TradingBotTestimonials />
             </div>
           </div>
-        </header>
-
-        {/* Main image */}
-        <figure className="mb-12">
-          <img 
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&h=700&fit=crop" 
-            alt="Bitcoin ETF Zulassung"
-            className="w-full h-auto rounded-lg shadow-lg"
-          />
-          <figcaption className="mt-4 text-xl text-muted-foreground leading-relaxed font-nexa">
-            Die SEC-Zulassung von Bitcoin ETFs markiert einen Wendepunkt für institutionelle Krypto-Investments.
-          </figcaption>
-        </figure>
-
-        {/* Article content */}
-        <article className="max-w-none">
-          {articleSections.map((section, index) => (
-            <section key={index} className="mb-8">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground leading-tight font-nexa">
-                {section.title}
-              </h2>
-              <p className="text-2xl leading-relaxed text-foreground mb-4 font-light font-nexa">
-                {section.content}
-              </p>
-            </section>
-          ))}
-        </article>
+        </div>
       </div>
 
       {/* Footer */}
