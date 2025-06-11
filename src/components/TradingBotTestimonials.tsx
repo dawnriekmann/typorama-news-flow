@@ -48,22 +48,26 @@ const TradingBotTestimonials = () => {
       {/* Call-to-Action Box */}
       <Card className="border-finance-primary bg-finance-secondary/20">
         <CardHeader className="text-center pb-4">
-          <h3 className="text-2xl font-bold text-finance-primary font-nexa">
-            KryptoBot Pro
-          </h3>
+          <div className="mb-2">
+            <img 
+              src="https://i.imgur.com/Q191f5z.png" 
+              alt="KryptoBot Logo"
+              className="mx-auto h-16 w-auto"
+            />
+          </div>
           <p className="text-sm text-muted-foreground font-nexa">
-            Automatisierte Bitcoin & ETF Trades
+            Automatisierte Krypto Trades
           </p>
         </CardHeader>
         <CardContent className="text-center">
           <div className="text-3xl font-bold text-finance-success mb-2 font-nexa">
-            Ø +142% Gewinn
+            Ø +30.2% Gewinn
           </div>
           <p className="text-sm text-muted-foreground mb-4 font-nexa">
             Durchschnittlicher Profit unserer Nutzer
           </p>
           <button className="w-full bg-finance-primary text-white py-3 px-6 rounded-lg hover:opacity-90 transition-opacity font-nexa font-medium">
-            Jetzt 7 Tage kostenlos testen
+            Jetzt Zugang sichern
           </button>
         </CardContent>
       </Card>
