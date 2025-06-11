@@ -1,4 +1,3 @@
-
 import { StarIcon } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 
@@ -16,21 +15,21 @@ const TradingBotTestimonials = () => {
       role: "Finanzberaterin",
       text: "Als Finanzberaterin war ich skeptisch gegenüber Trading-Bots. Bitloon hat mich aber überzeugt - die Algorithmen sind sehr ausgereift und das Risikomanagement funktioniert einwandfrei.",
       rating: 5,
-      profit: "+28%"
+      profit: "+23%"
     },
     {
       name: "Thomas Klein",
       role: "Day Trader",
       text: "Endlich ein Bot, der wirklich funktioniert! Bitloon hat meine manuellen Trading-Ergebnisse deutlich übertroffen. Die automatische Ausführung ist präzise und schnell.",
       rating: 4,
-      profit: "+39%"
+      profit: "+29%"
     },
     {
       name: "Lisa Meier",
       role: "Krypto-Enthusiastin",
       text: "Ich nutze Bitloon seit 3 Monaten und bin begeistert. Der Bot erkennt Markttrends früh und macht profitable Trades. Das passive Einkommen aus Krypto-Trading ist großartig!",
       rating: 5,
-      profit: "+22%"
+      profit: "+17%"
     }
   ];
 
