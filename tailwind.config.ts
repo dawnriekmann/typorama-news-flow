@@ -20,8 +20,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'serif': ['Playfair Display', 'serif'],
-				'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+				'serif': ['"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
+				'sans': ['"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -126,7 +126,7 @@ export default {
 				DEFAULT: {
 					css: {
 						maxWidth: 'none',
-						color: 'hsl(var(--foreground))',
+						color: 'rgb(31, 41, 55)',
 						lineHeight: '1.75',
 						fontSize: '1.125rem',
 					}
