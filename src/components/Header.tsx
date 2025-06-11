@@ -1,6 +1,5 @@
 
-import Header from '@/components/Header';
-import StarRating from '@/components/StarRating';
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb';
 
 interface HeaderProps {
   showBreadcrumb?: boolean;
