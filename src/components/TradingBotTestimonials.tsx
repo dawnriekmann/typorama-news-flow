@@ -66,7 +66,7 @@ const TradingBotTestimonials = () => {
           <p className="text-sm text-muted-foreground mb-4 font-nexa">
             Durchschnittlicher Profit unserer Nutzer
           </p>
-          <button className="w-full bg-finance-primary text-white py-3 px-6 rounded-lg hover:opacity-90 transition-opacity font-nexa font-medium">
+          <button className="w-full bg-yellow-500 text-black py-3 px-6 rounded-lg hover:bg-yellow-600 transition-colors font-nexa font-medium">
             Jetzt Zugang sichern
           </button>
         </CardContent>
