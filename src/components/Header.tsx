@@ -1,3 +1,4 @@
+
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb';
 import { Separator } from '@/components/ui/separator';
 
@@ -27,33 +28,31 @@ const Header = ({ showBreadcrumb = false, breadcrumbItems = [] }: HeaderProps) =
           </div>
         </div>
         
-        {/* Modern Separator and Breadcrumb */}
+        {/* Simple Divider */}
         {showBreadcrumb && breadcrumbItems.length > 0 && (
-          <div className="py-4">
-            <div className="flex items-center gap-4 mb-3">
-              <Separator className="flex-1 bg-gradient-to-r from-transparent via-border to-transparent" />
-              <div className="w-2 h-2 rounded-full bg-finance-primary/60"></div>
-              <Separator className="flex-1 bg-gradient-to-r from-transparent via-border to-transparent" />
+          <>
+            <Separator className="my-4" />
+            <div className="pb-4">
+              <Breadcrumb>
+                <BreadcrumbList>
+                  {breadcrumbItems.map((item, index) => (
+                    <BreadcrumbItem key={index}>
+                      {index === breadcrumbItems.length - 1 ? (
+                        <BreadcrumbPage>{item.label}</BreadcrumbPage>
+                      ) : (
+                        <>
+                          <BreadcrumbLink href={item.href || '#'}>
+                            {item.label}
+                          </BreadcrumbLink>
+                          <BreadcrumbSeparator />
+                        </>
+                      )}
+                    </BreadcrumbItem>
+                  ))}
+                </BreadcrumbList>
+              </Breadcrumb>
             </div>
-            <Breadcrumb>
-              <BreadcrumbList>
-                {breadcrumbItems.map((item, index) => (
-                  <BreadcrumbItem key={index}>
-                    {index === breadcrumbItems.length - 1 ? (
-                      <BreadcrumbPage>{item.label}</BreadcrumbPage>
-                    ) : (
-                      <>
-                        <BreadcrumbLink href={item.href || '#'}>
-                          {item.label}
-                        </BreadcrumbLink>
-                        <BreadcrumbSeparator />
-                      </>
-                    )}
-                  </BreadcrumbItem>
-                ))}
-              </BreadcrumbList>
-            </Breadcrumb>
-          </div>
+          </>
         )}
       </div>
     </header>
