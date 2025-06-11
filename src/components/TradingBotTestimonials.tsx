@@ -8,29 +8,29 @@ const TradingBotTestimonials = () => {
       name: "Marcus Weber",
       role: "Privatinvestor",
       rating: 5,
-      text: "Seit ich den KryptoBot verwende, sind meine Bitcoin-Trades viel erfolgreicher geworden. Die ETF-News haben mir geholfen, zum perfekten Zeitpunkt einzusteigen.",
-      profit: "+127%"
+      text: "Bitloon hat meine Erwartungen übertroffen! Der automatisierte Trading-Bot läuft 24/7 und macht profitable Trades, während ich schlafe. Besonders die KI-basierte Marktanalyse ist beeindruckend.",
+      profit: "+34%"
     },
     {
       name: "Sarah Fischer",
       role: "Finanzberaterin",
-      text: "Der Bot hat meine Erwartungen übertroffen. Besonders bei der ETF-Zulassung hat er automatisch die besten Entry-Points gefunden.",
+      text: "Als Finanzberaterin war ich skeptisch gegenüber Trading-Bots. Bitloon hat mich aber überzeugt - die Algorithmen sind sehr ausgereift und das Risikomanagement funktioniert einwandfrei.",
       rating: 5,
-      profit: "+89%"
+      profit: "+28%"
     },
     {
       name: "Thomas Klein",
       role: "Day Trader",
-      text: "Endlich ein Bot, der wirklich funktioniert! Die Algorithmen reagieren perfekt auf Marktnachrichten wie die SEC-Entscheidung.",
+      text: "Endlich ein Bot, der wirklich funktioniert! Bitloon hat meine manuellen Trading-Ergebnisse deutlich übertroffen. Die automatische Ausführung ist präzise und schnell.",
       rating: 4,
-      profit: "+156%"
+      profit: "+39%"
     },
     {
       name: "Lisa Meier",
       role: "Krypto-Enthusiastin",
-      text: "Ich war skeptisch, aber die Ergebnisse sprechen für sich. Der Bot hat mir geholfen, von der ETF-Rally zu profitieren.",
+      text: "Ich nutze Bitloon seit 3 Monaten und bin begeistert. Der Bot erkennt Markttrends früh und macht profitable Trades. Das passive Einkommen aus Krypto-Trading ist großartig!",
       rating: 5,
-      profit: "+203%"
+      profit: "+22%"
     }
   ];
 
@@ -38,7 +38,7 @@ const TradingBotTestimonials = () => {
     <div className="space-y-6">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-foreground mb-2 font-nexa">
-          Trading Bot Erfahrungen
+          Bitloon Erfahrungen
         </h2>
         <p className="text-muted-foreground text-lg font-nexa">
           Echte Nutzer berichten über ihre Erfolge
@@ -51,7 +51,7 @@ const TradingBotTestimonials = () => {
           <div className="mb-2">
             <img 
               src="https://i.imgur.com/Q191f5z.png" 
-              alt="KryptoBot Logo"
+              alt="Bitloon Logo"
               className="mx-auto h-16 w-auto"
             />
           </div>
@@ -116,7 +116,7 @@ const TradingBotTestimonials = () => {
       <Card className="border border-border">
         <CardHeader>
           <h3 className="text-xl font-bold text-foreground font-nexa">
-            Bot Features
+            Bitloon Features
           </h3>
         </CardHeader>
         <CardContent>
@@ -131,11 +131,11 @@ const TradingBotTestimonials = () => {
             </li>
             <li className="flex items-center gap-2">
               <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
-              Risikomanagement
+              Intelligentes Risikomanagement
             </li>
             <li className="flex items-center gap-2">
               <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
-              ETF & Bitcoin Integration
+              Mehrere Kryptowährungen unterstützt
             </li>
           </ul>
         </CardContent>
