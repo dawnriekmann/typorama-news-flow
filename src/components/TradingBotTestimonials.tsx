@@ -1,5 +1,4 @@
-
-import { StarIcon, Bot, TrendingUp, Shield, Coins } from 'lucide-react';
+import { StarIcon } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 
 const TradingBotTestimonials = () => {
@@ -31,29 +30,6 @@ const TradingBotTestimonials = () => {
       text: "Ich nutze Bitloon seit 3 Monaten und bin begeistert. Der Bot erkennt Markttrends früh und macht profitable Trades. Das passive Einkommen aus Krypto-Trading ist großartig!",
       rating: 5,
       profit: "+17%"
-    }
-  ];
-
-  const features = [
-    {
-      icon: Bot,
-      title: "24/7 automatisierte Trades",
-      description: "Niemals eine Gelegenheit verpassen"
-    },
-    {
-      icon: TrendingUp,
-      title: "KI-basierte Marktanalyse",
-      description: "Intelligente Mustererkennung"
-    },
-    {
-      icon: Shield,
-      title: "Intelligentes Risikomanagement",
-      description: "Schutz vor großen Verlusten"
-    },
-    {
-      icon: Coins,
-      title: "Mehrere Kryptowährungen",
-      description: "Diversifiziertes Portfolio"
     }
   ];
 
@@ -136,36 +112,31 @@ const TradingBotTestimonials = () => {
       </div>
 
       {/* Features */}
-      <Card className="border border-border bg-gradient-to-br from-finance-secondary/10 to-finance-accent/10">
-        <CardHeader className="text-center pb-4">
+      <Card className="border border-border">
+        <CardHeader>
           <h3 className="text-xl font-bold text-foreground font-nexa">
             Bitloon Features
           </h3>
-          <p className="text-sm text-muted-foreground font-nexa">
-            Was unseren Trading-Bot so erfolgreich macht
-          </p>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {features.map((feature, index) => (
-              <div 
-                key={index} 
-                className="flex items-start gap-3 p-4 rounded-lg bg-background/50 border border-border/50 hover:bg-finance-secondary/20 transition-colors"
-              >
-                <div className="flex-shrink-0 p-2 bg-finance-primary/10 rounded-lg">
-                  <feature.icon className="w-5 h-5 text-finance-primary" />
-                </div>
-                <div>
-                  <h4 className="font-medium text-foreground font-nexa text-sm">
-                    {feature.title}
-                  </h4>
-                  <p className="text-xs text-muted-foreground font-nexa mt-1">
-                    {feature.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ul className="space-y-3 text-foreground font-nexa">
+            <li className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
+              24/7 automatisierte Trades
+            </li>
+            <li className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
+              KI-basierte Marktanalyse
+            </li>
+            <li className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
+              Intelligentes Risikomanagement
+            </li>
+            <li className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
+              Mehrere Kryptowährungen unterstützt
+            </li>
+          </ul>
         </CardContent>
       </Card>
     </div>
