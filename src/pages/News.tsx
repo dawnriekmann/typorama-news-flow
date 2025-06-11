@@ -1,5 +1,3 @@
-
-
 import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
@@ -85,20 +83,54 @@ const News = () => {
         {/* Article content */}
         <article className="max-w-none">
           {articleSections.map((section, index) => (
-            <section key={index} className="mb-12">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground leading-tight font-nexa">
+            <section key={index} className="mb-8">
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground leading-tight font-nexa">
                 {section.title}
               </h2>
-              <p className="text-2xl leading-relaxed text-foreground mb-6 font-light font-nexa">
+              <p className="text-2xl leading-relaxed text-foreground mb-4 font-light font-nexa">
                 {section.content}
               </p>
             </section>
           ))}
         </article>
       </div>
+
+      {/* Footer */}
+      <footer className="border-t border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col items-center justify-center py-12">
+            {/* Logo Section */}
+            <div className="text-center mb-8">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold tracking-tight text-finance-primary mb-2">
+                FinanceToday
+              </h2>
+              <div className="text-base text-muted-foreground font-light tracking-wide">
+                Vertrauenswürdige Finanz-Nachrichten
+              </div>
+              {/* Decorative underline */}
+              <div className="mt-3 w-20 h-0.5 bg-gradient-to-r from-finance-primary to-finance-secondary mx-auto rounded-full"></div>
+            </div>
+
+            {/* Links */}
+            <div className="flex items-center gap-8 text-lg text-muted-foreground font-nexa mb-6">
+              <a href="#impressum" className="hover:text-finance-primary transition-colors">
+                Impressum
+              </a>
+              <span className="text-border">|</span>
+              <a href="#datenschutz" className="hover:text-finance-primary transition-colors">
+                Datenschutz
+              </a>
+            </div>
+
+            {/* Copyright */}
+            <div className="text-sm text-muted-foreground font-nexa">
+              © 2025 FinanceToday. Alle Rechte vorbehalten.
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
 
 export default News;
-
