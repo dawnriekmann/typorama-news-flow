@@ -1,5 +1,3 @@
-
-
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb';
 import { Separator } from '@/components/ui/separator';
 
@@ -18,7 +16,7 @@ const Header = ({ showBreadcrumb = false, breadcrumbItems = [] }: HeaderProps) =
         <div className="flex items-center justify-center h-24 py-8">
           {/* Logo Section - Centered */}
           <div className="text-center">
-            <h1 className="font-serif text-4xl md:text-5xl font-bold tracking-tight text-finance-primary mb-2">
+            <h1 className="font-playfair text-4xl md:text-5xl font-bold tracking-tight text-finance-primary mb-2">
               FinanceToday
             </h1>
             <div className="text-lg text-muted-foreground font-light tracking-wide">
@@ -34,4 +32,3 @@ const Header = ({ showBreadcrumb = false, breadcrumbItems = [] }: HeaderProps) =
 };
 
 export default Header;
-

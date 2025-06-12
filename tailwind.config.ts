@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -20,9 +19,10 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'serif': ['"Nexa Book"', '"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
+				'serif': ['"Playfair Display"', '"Nexa Book"', '"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'serif'],
 				'sans': ['"Nexa Book"', '"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
 				'nexa': ['"Nexa Book"', '"Segoe UI"', 'Roboto', 'system-ui', '-apple-system', 'sans-serif'],
+				'playfair': ['"Playfair Display"', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
