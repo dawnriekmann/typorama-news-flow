@@ -1,3 +1,4 @@
+
 import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
@@ -52,7 +53,7 @@ const News = () => {
             {/* Article header */}
             <header className="mb-10">
               {/* Title */}
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-foreground font-nexa">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground font-nexa">
                 Aus 200 € wurden 543 € in 28 Stunden – ganz ohne Handgriff: Wie der Krypto-Bot Bitloon das Spiel am Markt neu schreibt
               </h1>
 
@@ -62,11 +63,11 @@ const News = () => {
               </div>
 
               {/* Meta information */}
-              <div className="flex flex-wrap items-center gap-6 text-muted-foreground text-xl mb-8 font-nexa">
+              <div className="flex flex-wrap items-center gap-6 text-muted-foreground text-2xl mb-8 font-nexa">
                 <span className="font-medium">Von Jonas M.</span>
                 <span>12. Juni 2025, 09:15 Uhr</span>
                 <div className="flex items-center gap-3">
-                  <ClockIcon className="w-5 h-5" />
+                  <ClockIcon className="w-6 h-6" />
                   <span>6 Min. Lesezeit</span>
                 </div>
               </div>
@@ -79,7 +80,7 @@ const News = () => {
                 alt="Bitloon Trading Bot"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
-              <figcaption className="mt-4 text-lg text-muted-foreground leading-relaxed font-nexa">
+              <figcaption className="mt-4 text-xl text-muted-foreground leading-relaxed font-nexa">
                 Der autonome Trading-Bot Bitloon revolutioniert das Krypto-Trading durch vollautomatische Handelsentscheidungen.
               </figcaption>
             </figure>
@@ -87,11 +88,11 @@ const News = () => {
             {/* Article content */}
             <article className="max-w-none">
               {articleSections.map((section, index) => (
-                <section key={index} className="mb-8">
-                  <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground leading-tight font-nexa">
+                <section key={index} className="mb-10">
+                  <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground leading-tight font-nexa">
                     {section.title}
                   </h2>
-                  <p className="text-xl leading-relaxed text-foreground mb-4 font-light font-nexa">
+                  <p className="text-2xl leading-relaxed text-foreground mb-6 font-light font-nexa">
                     {section.content}
                   </p>
                 </section>
