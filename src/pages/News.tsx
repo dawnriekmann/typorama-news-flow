@@ -1,4 +1,3 @@
-
 import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
@@ -14,27 +13,27 @@ const News = () => {
   const articleSections = [
     {
       title: "Rechnen statt Raten: Der neue Weg, im Krypto-Markt Geld zu verdienen",
-      content: "Hamburg-Altona, Dienstagmorgen. Draußen Nieselregen, drinnen flackern leuchtende Kursbewegungen über sechs Monitore. Jonas M. sitzt entspannt vor seiner Trading-Umgebung. „Ich analysiere hier nichts mehr selbst", sagt er mit einem leichten Grinsen. „Das übernimmt längst Bitloon." Was klingt wie Zukunftsmusik, ist für Jonas Alltag: Ein vollautomatischer Krypto-Trading-Bot, der eigenständig handelt, auswertet und Gewinne realisiert – rund um die Uhr."
+      content: "Hamburg-Altona, Dienstagmorgen. Draußen Nieselregen, drinnen flackern leuchtende Kursbewegungen über sechs Monitore. Jonas M. sitzt entspannt vor seiner Trading-Umgebung. \"Ich analysiere hier nichts mehr selbst\", sagt er mit einem leichten Grinsen. \"Das übernimmt längst Bitloon.\" Was klingt wie Zukunftsmusik, ist für Jonas Alltag: Ein vollautomatischer Krypto-Trading-Bot, der eigenständig handelt, auswertet und Gewinne realisiert – rund um die Uhr."
     },
     {
       title: "Vom Excel-Angestellten zum Architekten eines autonomen Systems",
-      content: "Vor drei Jahren noch arbeitete Jonas in einem Großkonzern – lange Meetings, starre Abläufe. In seiner Freizeit begann er, sich intensiv mit dem Kryptomarkt und maschinellem Lernen zu beschäftigen. Was ihn faszinierte: die Unberechenbarkeit menschlichen Verhaltens – und die Vorhersagbarkeit von Mustern dahinter. „Irgendwann wurde mir klar, dass ich nicht selbst besser werden musste – ich musste einen bauen, der automatisch besser handelt als ich." Die Idee zu Bitloon war geboren."
+      content: "Vor drei Jahren noch arbeitete Jonas in einem Großkonzern – lange Meetings, starre Abläufe. In seiner Freizeit begann er, sich intensiv mit dem Kryptomarkt und maschinellem Lernen zu beschäftigen. Was ihn faszinierte: die Unberechenbarkeit menschlichen Verhaltens – und die Vorhersagbarkeit von Mustern dahinter. \"Irgendwann wurde mir klar, dass ich nicht selbst besser werden musste – ich musste einen bauen, der automatisch besser handelt als ich.\" Die Idee zu Bitloon war geboren."
     },
     {
       title: "Der Bot: Bitloon",
-      content: "Bitloon ist ein autonomer Trading-Bot, speziell für den hochvolatilen Kryptomarkt entwickelt. Anders als Signal-Dienste oder halbautomatische Tools handelt Bitloon vollständig selbstständig – ohne menschliche Bestätigung oder manuelle Eingriffe. Was Bitloon auswertet: Kursbewegungen in Echtzeit auf Plattformen wie Binance, Coinbase, Kraken; Wallet-Aktivitäten großer Marktteilnehmer (sog. „Whales") direkt aus der Blockchain; Marktstimmungen aus Krypto-Twitter, Telegram-Gruppen und Newsfeeds; On-Chain-Daten: Liquidität, Volumen, Transaktionshäufungen; Korrelationen und Volatilitätszonen zwischen BTC, ETH, SOL, uvm. „Der Bot sucht nicht nach Trends – er rechnet Wahrscheinlichkeiten. Und handelt dann schneller als jeder Mensch reagieren könnte", erklärt Jonas."
+      content: "Bitloon ist ein autonomer Trading-Bot, speziell für den hochvolatilen Kryptomarkt entwickelt. Anders als Signal-Dienste oder halbautomatische Tools handelt Bitloon vollständig selbstständig – ohne menschliche Bestätigung oder manuelle Eingriffe. Was Bitloon auswertet: Kursbewegungen in Echtzeit auf Plattformen wie Binance, Coinbase, Kraken; Wallet-Aktivitäten großer Marktteilnehmer (sog. \"Whales\") direkt aus der Blockchain; Marktstimmungen aus Krypto-Twitter, Telegram-Gruppen und Newsfeeds; On-Chain-Daten: Liquidität, Volumen, Transaktionshäufungen; Korrelationen und Volatilitätszonen zwischen BTC, ETH, SOL, uvm. \"Der Bot sucht nicht nach Trends – er rechnet Wahrscheinlichkeiten. Und handelt dann schneller als jeder Mensch reagieren könnte\", erklärt Jonas."
     },
     {
       title: "Der Praxistest: 200 € Start – 543 € Ergebnis",
-      content: "Wir wollten es wissen: Funktioniert Bitloon wirklich? Jonas richtet gemeinsam mit uns ein Testkonto bei einem regulierten Krypto-Broker ein. Startkapital: 200 €. Bitloon wird aktiviert, im konservativen Modus (geringes Risiko, harte Stop-Loss-Grenzen). Überwachungszeitraum: 28 Stunden – keine manuellen Eingriffe, keine Anpassungen. Das Ergebnis: 543 € Kontostand nach Ablauf der Testphase. Bitloon führte über 60 Einzel-Trades aus – größtenteils kleine Profite, aber mit hoher Trefferquote und fast ohne Drawdown. „Das System ist nicht spektakulär", sagt Jonas. „Aber es ist strukturiert. Und es macht keine emotionalen Fehler.""
+      content: "Wir wollten es wissen: Funktioniert Bitloon wirklich? Jonas richtet gemeinsam mit uns ein Testkonto bei einem regulierten Krypto-Broker ein. Startkapital: 200 €. Bitloon wird aktiviert, im konservativen Modus (geringes Risiko, harte Stop-Loss-Grenzen). Überwachungszeitraum: 28 Stunden – keine manuellen Eingriffe, keine Anpassungen. Das Ergebnis: 543 € Kontostand nach Ablauf der Testphase. Bitloon führte über 60 Einzel-Trades aus – größtenteils kleine Profite, aber mit hoher Trefferquote und fast ohne Drawdown. \"Das System ist nicht spektakulär\", sagt Jonas. \"Aber es ist strukturiert. Und es macht keine emotionalen Fehler.\""
     },
     {
       title: "Kein Bauchgefühl. Kein Chart-Gefluche. Nur Wahrscheinlichkeiten.",
-      content: "Jonas betont: Bitloon ersetzt nicht den Verstand – aber er ersetzt die Emotion. Wo viele Hobby-Trader bei jedem Dip nervös werden, bleibt Bitloon stoisch. Reagiert nur auf Daten. Und genau das scheint den Unterschied zu machen. „Ich verspreche niemandem Reichtum. Aber ich zeige, dass es eine Alternative gibt zu Panik, YouTube-Gurus und Chart-Roulette.""
+      content: "Jonas betont: Bitloon ersetzt nicht den Verstand – aber er ersetzt die Emotion. Wo viele Hobby-Trader bei jedem Dip nervös werden, bleibt Bitloon stoisch. Reagiert nur auf Daten. Und genau das scheint den Unterschied zu machen. \"Ich verspreche niemandem Reichtum. Aber ich zeige, dass es eine Alternative gibt zu Panik, YouTube-Gurus und Chart-Roulette.\""
     },
     {
       title: "Die stille Community dahinter",
-      content: "Inzwischen setzen über 2.000 Nutzer weltweit Bitloon ein – mit Einsätzen zwischen 100 und 10.000 Euro. Viele berichten von konstanten Ergebnissen, einem besseren Risikogefühl und – ganz wichtig – mehr Freizeit. Denn Bitloon läuft 24/7. Ohne Pause. Ohne „mal kurz schauen". Und genau das macht ihn für viele zur echten Alternative im Kryptomarkt."
+      content: "Inzwischen setzen über 2.000 Nutzer weltweit Bitloon ein – mit Einsätzen zwischen 100 und 10.000 Euro. Viele berichten von konstanten Ergebnissen, einem besseren Risikogefühl und – ganz wichtig – mehr Freizeit. Denn Bitloon läuft 24/7. Ohne Pause. Ohne \"mal kurz schauen\". Und genau das macht ihn für viele zur echten Alternative im Kryptomarkt."
     },
     {
       title: "Interesse?",
