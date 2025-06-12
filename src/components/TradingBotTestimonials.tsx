@@ -1,3 +1,4 @@
+
 import { StarIcon } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 
@@ -65,6 +66,16 @@ const TradingBotTestimonials = () => {
           <p className="text-sm text-muted-foreground mb-4 font-nexa">
             Durchschnittlicher Profit unserer Nutzer
           </p>
+          
+          <div className="mb-4 p-3 bg-finance-success/10 border border-finance-success/20 rounded-lg">
+            <p className="text-sm font-medium text-finance-success font-nexa mb-1">
+              🎁 Exklusiv mit Code: <strong>FINANCE</strong>
+            </p>
+            <p className="text-xs text-muted-foreground font-nexa">
+              50€ Startguthaben geschenkt
+            </p>
+          </div>
+          
           <button className="w-full bg-finance-primary text-white py-3 px-6 rounded-lg hover:opacity-90 transition-opacity font-nexa font-medium">
             Jetzt Zugang sichern
           </button>
