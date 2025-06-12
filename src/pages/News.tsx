@@ -13,32 +13,32 @@ const News = () => {
 
   const articleSections = [
     {
-      title: "Historische Entscheidung der SEC",
-      content: "Die Securities and Exchange Commission (SEC) hat nach jahrelangen intensiven Verhandlungen und regulatorischen Prüfungen endlich die Zulassung für Bitcoin Exchange Traded Funds (ETFs) erteilt. Diese bahnbrechende Entscheidung markiert einen Wendepunkt in der Geschichte der Kryptowährungen und öffnet institutionellen Anlegern erstmals den Weg zu regulierten Bitcoin-Investments. Die Genehmigung umfasst zunächst elf verschiedene ETF-Anbieter, darunter BlackRock, Fidelity und Grayscale, die zusammen ein verwaltetes Vermögen von über 2 Billionen US-Dollar repräsentieren."
+      title: "Rechnen statt Raten: Der neue Weg, im Krypto-Markt Geld zu verdienen",
+      content: "Hamburg-Altona, Dienstagmorgen. Draußen Nieselregen, drinnen flackern leuchtende Kursbewegungen über sechs Monitore. Jonas M. sitzt entspannt vor seiner Trading-Umgebung. „Ich analysiere hier nichts mehr selbst", sagt er mit einem leichten Grinsen. „Das übernimmt längst Bitloon." Was klingt wie Zukunftsmusik, ist für Jonas Alltag: Ein vollautomatischer Krypto-Trading-Bot, der eigenständig handelt, auswertet und Gewinne realisiert – rund um die Uhr."
     },
     {
-      title: "Auswirkungen auf den Bitcoin-Kurs",
-      content: "Seit der offiziellen Ankündigung verzeichnet Bitcoin einen beispiellosen Kursanstieg von über 35% innerhalb von 48 Stunden. Das Handelsvolumen erreichte mit 67 Milliarden US-Dollar einen neuen Rekordwert, während der Bitcoin-Preis die psychologisch wichtige Marke von 50.000 US-Dollar durchbrach. Marktexperten sprechen von einer 'institutionellen FOMO' (Fear of Missing Out), da große Vermögensverwalter nun endlich rechtssicher in den Kryptomarkt einsteigen können. Die Volatilität bleibt jedoch charakteristisch hoch, was Anleger zur Vorsicht mahnt."
+      title: "Vom Excel-Angestellten zum Architekten eines autonomen Systems",
+      content: "Vor drei Jahren noch arbeitete Jonas in einem Großkonzern – lange Meetings, starre Abläufe. In seiner Freizeit begann er, sich intensiv mit dem Kryptomarkt und maschinellem Lernen zu beschäftigen. Was ihn faszinierte: die Unberechenbarkeit menschlichen Verhaltens – und die Vorhersagbarkeit von Mustern dahinter. „Irgendwann wurde mir klar, dass ich nicht selbst besser werden musste – ich musste einen bauen, der automatisch besser handelt als ich." Die Idee zu Bitloon war geboren."
     },
     {
-      title: "Institutionelle Investoren im Fokus",
-      content: "Pensionsfonds, Versicherungsunternehmen und Family Offices zeigen bereits reges Interesse an den neuen Bitcoin ETFs. Diese regulierten Anlageprodukte bieten institutionellen Investoren erstmals die Möglichkeit, Bitcoin-Exposure zu erlangen, ohne direkte Custody-Risiken eingehen zu müssen. Erste Analysen deuten darauf hin, dass bereits in der ersten Handelswoche über 1,2 Milliarden US-Dollar in die neuen ETFs geflossen sind. Dies entspricht etwa 24.000 Bitcoin, die aus dem zirkulierenden Angebot genommen wurden."
+      title: "Der Bot: Bitloon",
+      content: "Bitloon ist ein autonomer Trading-Bot, speziell für den hochvolatilen Kryptomarkt entwickelt. Anders als Signal-Dienste oder halbautomatische Tools handelt Bitloon vollständig selbstständig – ohne menschliche Bestätigung oder manuelle Eingriffe. Was Bitloon auswertet: Kursbewegungen in Echtzeit auf Plattformen wie Binance, Coinbase, Kraken; Wallet-Aktivitäten großer Marktteilnehmer (sog. „Whales") direkt aus der Blockchain; Marktstimmungen aus Krypto-Twitter, Telegram-Gruppen und Newsfeeds; On-Chain-Daten: Liquidität, Volumen, Transaktionshäufungen; Korrelationen und Volatilitätszonen zwischen BTC, ETH, SOL, uvm."
     },
     {
-      title: "Vergleich zu internationalen Märkten",
-      content: "Während die USA nun nachziehen, haben Kanada und mehrere europäische Länder bereits seit 2021 Bitcoin ETFs zugelassen. Der kanadische Purpose Bitcoin ETF verwaltet mittlerweile über 1,5 Milliarden CAD, während europäische ETPs (Exchange Traded Products) stetig wachsende Zuflüsse verzeichnen. Die US-Zulassung gilt jedoch als Katalysator für die globale Krypto-Adoption, da der amerikanische Markt traditionell als Leitmarkt für Finanzinnovationen fungiert. Experten erwarten nun ähnliche Entwicklungen in asiatischen Märkten."
+      title: "Der Praxistest: 200 € Start – 543 € Ergebnis",
+      content: "Wir wollten es wissen: Funktioniert Bitloon wirklich? Jonas richtet gemeinsam mit uns ein Testkonto bei einem regulierten Krypto-Broker ein. Startkapital: 200 €. Bitloon wird aktiviert, im konservativen Modus (geringes Risiko, harte Stop-Loss-Grenzen). Überwachungszeitraum: 28 Stunden – keine manuellen Eingriffe, keine Anpassungen. Das Ergebnis: 543 € Kontostand nach Ablauf der Testphase. Bitloon führte über 60 Einzel-Trades aus – größtenteils kleine Profite, aber mit hoher Trefferquote und fast ohne Drawdown."
     },
     {
-      title: "Risiken und Herausforderungen",
-      content: "Trotz der positiven Entwicklungen warnen Regulatoren und Finanzexperten vor den inhärenten Risiken von Bitcoin-Investments. Die extreme Volatilität, regulatorische Unsicherheiten in anderen Jurisdiktionen und die noch immer bestehende Korrelation zu Risiko-Assets bleiben zentrale Herausforderungen. Anleger sollten Bitcoin ETFs als hochspekulative Beimischung betrachten und nicht mehr als 2-5% ihres Portfolios in Kryptowährungen investieren. Zudem unterliegen die ETFs den üblichen Gebührenstrukturen, die die Gesamtrendite beeinflussen können."
+      title: "Kein Bauchgefühl. Kein Chart-Gefluche. Nur Wahrscheinlichkeiten.",
+      content: "Jonas betont: Bitloon ersetzt nicht den Verstand – aber er ersetzt die Emotion. Wo viele Hobby-Trader bei jedem Dip nervös werden, bleibt Bitloon stoisch. Reagiert nur auf Daten. Und genau das scheint den Unterschied zu machen. „Ich verspreche niemandem Reichtum. Aber ich zeige, dass es eine Alternative gibt zu Panik, YouTube-Gurus und Chart-Roulette.""
     },
     {
-      title: "Expertenstimmen aus der Branche",
-      content: "'Dies ist der Beginn einer neuen Ära für institutionelle Krypto-Investments', erklärt Michael Sonnenshein, CEO von Grayscale. BlackRock-Chef Larry Fink, einst Krypto-Skeptiker, bezeichnete Bitcoin nun als 'legitime Anlageklasse'. Fed-Chair Jerome Powell betonte jedoch die Wichtigkeit kontinuierlicher regulatorischer Überwachung. Krypto-Pionier Andreas Antonopoulos warnt vor einer möglichen Zentralisierung durch institutionelle Dominanz, während Galaxy Digital-Gründer Mike Novogratz von einem 'historischen Moment' spricht."
+      title: "Die stille Community dahinter",
+      content: "Inzwischen setzen über 2.000 Nutzer weltweit Bitloon ein – mit Einsätzen zwischen 100 und 10.000 Euro. Viele berichten von konstanten Ergebnissen, einem besseren Risikogefühl und – ganz wichtig – mehr Freizeit. Denn Bitloon läuft 24/7. Ohne Pause. Ohne „mal kurz schauen". Und genau das macht ihn für viele zur echten Alternative im Kryptomarkt."
     },
     {
-      title: "Ausblick und Marktprognosen",
-      content: "Analysten prognostizieren für 2025 weitere ETF-Zulassungen für andere Kryptowährungen, insbesondere Ethereum. JPMorgan schätzt, dass Bitcoin ETFs innerhalb von zwei Jahren über 100 Milliarden US-Dollar verwalten könnten. Goldman Sachs erhöhte sein Bitcoin-Kursziel auf 75.000 US-Dollar bis Ende 2025. Langfristig könnte die institutionelle Adoption zu einer Stabilisierung der Volatilität führen, auch wenn Bitcoin seiner Natur nach eine volatile Anlageklasse bleiben wird. Die Entwicklung weiterer regulatorischer Rahmenbedingungen wird entscheidend für die nachhaltige Integration von Kryptowährungen ins traditionelle Finanzsystem sein."
+      title: "Interesse?",
+      content: "Bitloon ist aktuell nur limitiert verfügbar. Wer sich rechtzeitig informiert, kann eine Lizenz erwerben, den Bot selbst einrichten und auf dem eigenen Börsenkonto laufen lassen – komplett eigenständig, mit vollem Kapitalzugriff. Mehr Infos zu Bitloon, zur Technologie und zu den Voraussetzungen findest du unter: https://ai-bitloon.com"
     }
   ];
 
@@ -54,21 +54,21 @@ const News = () => {
             <header className="mb-10">
               {/* Title */}
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-foreground font-nexa">
-                Bitcoin ETF Zulassung: Institutioneller Durchbruch für Kryptowährungen
+                Aus 200 € wurden 543 € in 28 Stunden – ganz ohne Handgriff: Wie der Krypto-Bot Bitloon das Spiel am Markt neu schreibt
               </h1>
 
               {/* Star Rating */}
               <div className="mb-6">
-                <StarRating rating={4.5} reviewCount={127} />
+                <StarRating rating={4.8} reviewCount={89} />
               </div>
 
               {/* Meta information */}
               <div className="flex flex-wrap items-center gap-6 text-muted-foreground text-xl mb-8 font-nexa">
-                <span className="font-medium">Von Dr. Sarah Müller</span>
-                <span>15. Januar 2025, 14:30 Uhr</span>
+                <span className="font-medium">Von Jonas M.</span>
+                <span>12. Juni 2025, 09:15 Uhr</span>
                 <div className="flex items-center gap-3">
                   <ClockIcon className="w-5 h-5" />
-                  <span>8 Min. Lesezeit</span>
+                  <span>6 Min. Lesezeit</span>
                 </div>
               </div>
             </header>
@@ -76,12 +76,12 @@ const News = () => {
             {/* Main image */}
             <figure className="mb-12">
               <img 
-                src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&h=700&fit=crop" 
-                alt="Bitcoin ETF Zulassung"
+                src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1400&h=700&fit=crop" 
+                alt="Bitloon Trading Bot"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
               <figcaption className="mt-4 text-lg text-muted-foreground leading-relaxed font-nexa">
-                Die SEC-Zulassung von Bitcoin ETFs markiert einen Wendepunkt für institutionelle Krypto-Investments.
+                Der autonome Trading-Bot Bitloon revolutioniert das Krypto-Trading durch vollautomatische Handelsentscheidungen.
               </figcaption>
             </figure>
 
