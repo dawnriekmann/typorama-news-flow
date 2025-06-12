@@ -1,4 +1,3 @@
-
 import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
@@ -10,6 +9,14 @@ const News = () => {
     { label: 'Krypto', href: '#krypto' },
     { label: 'Artikel' }
   ];
+
+  // Get today's date dynamically
+  const today = new Date();
+  const formattedDate = today.toLocaleDateString('de-DE', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  });
 
   const articleSections = [
     {
@@ -65,7 +72,7 @@ const News = () => {
               {/* Meta information */}
               <div className="flex flex-wrap items-center gap-6 text-muted-foreground text-2xl mb-8 font-nexa">
                 <span className="font-medium">Von Jonas M.</span>
-                <span>12. Juni 2025, 09:15 Uhr</span>
+                <span>{formattedDate}</span>
                 <div className="flex items-center gap-3">
                   <ClockIcon className="w-6 h-6" />
                   <span>6 Min. Lesezeit</span>
