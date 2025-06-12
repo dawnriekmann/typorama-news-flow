@@ -45,7 +45,7 @@ const News = () => {
     },
     {
       title: "Interesse?",
-      content: "Bitloon ist aktuell nur limitiert verfügbar. Wer sich rechtzeitig informiert, kann eine Lizenz erwerben, den Bot selbst einrichten und auf dem eigenen Börsenkonto laufen lassen – komplett eigenständig, mit vollem Kapitalzugriff. Mehr Infos zu Bitloon, zur Technologie und zu den Voraussetzungen findest du unter: https://ai-bitloon.com"
+      content: "Bitloon ist aktuell nur limitiert verfügbar. Wer sich rechtzeitig informiert, kann eine Lizenz erwerben, den Bot selbst einrichten und auf dem eigenen Börsenkonto laufen lassen – komplett eigenständig, mit vollem Kapitalzugriff. Exklusiv für unsere Leser: Mit dem Code \"FINANCE\" erhalten Sie bei der Registrierung 50€ Startguthaben geschenkt. Mehr Infos zu Bitloon, zur Technologie und zu den Voraussetzungen findest du unter: https://ai-bitloon.com"
     }
   ];
 
