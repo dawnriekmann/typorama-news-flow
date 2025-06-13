@@ -1,4 +1,3 @@
-
 import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
@@ -54,7 +53,7 @@ const News = () => {
             <header className="mb-10">
               {/* Title */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground font-nexa">
-                So verdiente Jonas M. mit KI Millionen an der Börse
+                Aus 200 € wurden 543 € in 28 Stunden – ganz ohne Handgriff: Wie der Krypto-Bot Bitloon das Spiel am Markt neu schreibt
               </h1>
 
               {/* Star Rating */}
@@ -64,6 +63,7 @@ const News = () => {
 
               {/* Meta information */}
               <div className="flex flex-wrap items-center gap-6 text-muted-foreground text-2xl mb-8 font-nexa">
+                <span className="font-medium">Von Stefan B.</span>
                 <span>{formattedDate}</span>
                 <div className="flex items-center gap-3">
                   <ClockIcon className="w-6 h-6" />
@@ -74,7 +74,7 @@ const News = () => {
 
             {/* Main image */}
             <figure className="mb-12">
-              <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1400&h=700&fit=crop" alt="Bitloon Trading Bot" className="w-full h-auto rounded-lg shadow-lg" />
+              <img alt="Bitloon Trading Bot" className="w-full h-auto rounded-lg shadow-lg" src="https://i.imgur.com/Xh2obM0.png" />
               <figcaption className="mt-4 text-xl text-muted-foreground leading-relaxed font-nexa">
                 Der autonome Trading-Bot Bitloon revolutioniert das Krypto-Trading durch vollautomatische Handelsentscheidungen.
               </figcaption>
