@@ -1,3 +1,4 @@
+
 import { ClockIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
@@ -53,7 +54,7 @@ const News = () => {
             <header className="mb-10">
               {/* Title */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground font-nexa">
-                Aus 200 € wurden 543 € in 28 Stunden – ganz ohne Handgriff: Wie der Krypto-Bot Bitloon das Spiel am Markt neu schreibt
+                So verdiente Jonas M. mit KI Millionen an der Börse
               </h1>
 
               {/* Star Rating */}
@@ -63,7 +64,6 @@ const News = () => {
 
               {/* Meta information */}
               <div className="flex flex-wrap items-center gap-6 text-muted-foreground text-2xl mb-8 font-nexa">
-                <span className="font-medium">Von Stefan B.</span>
                 <span>{formattedDate}</span>
                 <div className="flex items-center gap-3">
                   <ClockIcon className="w-6 h-6" />
