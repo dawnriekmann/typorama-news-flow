@@ -1,4 +1,3 @@
-
 import { StarIcon } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 
@@ -33,6 +32,10 @@ const TradingBotTestimonials = () => {
       profit: "+17%"
     }
   ];
+
+  const handleButtonClick = () => {
+    window.open('https://ai-bitloon.com', '_blank');
+  };
 
   return (
     <div className="space-y-6">
@@ -76,7 +79,10 @@ const TradingBotTestimonials = () => {
             </p>
           </div>
           
-          <button className="w-full bg-finance-primary text-white py-3 px-6 rounded-lg hover:opacity-90 transition-opacity font-nexa font-medium">
+          <button 
+            onClick={handleButtonClick}
+            className="w-full bg-finance-primary text-white py-3 px-6 rounded-lg hover:opacity-90 transition-opacity font-nexa font-medium"
+          >
             Jetzt Zugang sichern
           </button>
         </CardContent>
