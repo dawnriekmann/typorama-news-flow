@@ -1,6 +1,5 @@
 
 import Header from '@/components/Header';
-import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
 
 const Impressum = () => {
@@ -13,6 +12,10 @@ const Impressum = () => {
 
   const handleGoBack = () => {
     window.history.back();
+    // Scroll to top after navigation
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100);
   };
 
   return (
@@ -21,14 +24,13 @@ const Impressum = () => {
       
       <div className="max-w-4xl mx-auto px-8 py-12">
         <div className="mb-6">
-          <Button 
-            variant="outline" 
+          <button 
             onClick={handleGoBack}
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors cursor-pointer"
           >
             <ArrowLeft size={16} />
             Zurück zur vorherigen Seite
-          </Button>
+          </button>
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-8 text-foreground font-nexa">
