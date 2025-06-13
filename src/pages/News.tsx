@@ -1,4 +1,5 @@
 import { ClockIcon } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
 import TradingBotTestimonials from '@/components/TradingBotTestimonials';
@@ -121,12 +122,12 @@ const News = () => {
 
             {/* Links - Right */}
             <div className="flex items-center gap-6 text-base text-muted-foreground font-nexa">
-              <a href="#impressum" className="hover:text-finance-primary transition-colors">
+              <Link to="/impressum" className="hover:text-finance-primary transition-colors">
                 Impressum
-              </a>
-              <a href="#datenschutz" className="hover:text-finance-primary transition-colors">
+              </Link>
+              <Link to="/datenschutz" className="hover:text-finance-primary transition-colors">
                 Datenschutz
-              </a>
+              </Link>
             </div>
           </div>
         </div>
