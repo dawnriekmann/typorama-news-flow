@@ -14,7 +14,7 @@ const SteuerHeader = ({ showBreadcrumb = false, breadcrumbItems = [] }: HeaderPr
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-center h-24 py-8">
+        <div className="flex items-center justify-center h-32 py-12">
           {/* Logo Section - Centered */}
           <div className="text-center">
             <img 
