@@ -17,9 +17,11 @@ const SteuerHeader = ({ showBreadcrumb = false, breadcrumbItems = [] }: HeaderPr
         <div className="flex items-center justify-center h-24 py-8">
           {/* Logo Section - Centered */}
           <div className="text-center">
-            <h1 className="font-playfair text-4xl md:text-5xl font-bold tracking-tight text-finance-primary mb-2">
-              FinanceToday
-            </h1>
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Handelsblatt_201x_logo.svg/2560px-Handelsblatt_201x_logo.svg.png" 
+              alt="Handelsblatt" 
+              className="h-12 md:h-16 mx-auto mb-2"
+            />
             <div className="text-lg text-muted-foreground font-light tracking-wide">
               Vertrauenswürdige Finanz-Nachrichten
             </div>

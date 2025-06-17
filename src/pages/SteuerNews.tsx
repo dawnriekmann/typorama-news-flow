@@ -113,9 +113,11 @@ const SteuerNews = () => {
             {/* Logo Section - Left */}
             <div className="flex items-center">
               <div>
-                <h2 className="font-serif text-2xl md:text-3xl font-bold tracking-tight text-finance-primary">
-                  FinanceToday
-                </h2>
+                <img 
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Handelsblatt_201x_logo.svg/2560px-Handelsblatt_201x_logo.svg.png" 
+                  alt="Handelsblatt" 
+                  className="h-8 md:h-10 mb-1"
+                />
                 <div className="text-sm text-muted-foreground font-light tracking-wide">
                   Vertrauenswürdige Finanz-Nachrichten
                 </div>
