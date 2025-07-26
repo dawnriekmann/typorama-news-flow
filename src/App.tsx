@@ -24,7 +24,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/So-verdiente-Jonas" element={<News />} />
           <Route path="/finanzen/steuern-recht/steuern/so-verdiente-jonas" element={<SteuerNews />} />
-          <Route path="/festgeld" element={<Festgeld />} />
+          <Route path="/so-sicherte-sich-daniela" element={<Festgeld />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/datenschutz" element={<Datenschutz />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

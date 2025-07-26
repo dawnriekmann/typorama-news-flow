@@ -9,7 +9,7 @@ const Festgeld = () => {
     href: '/'
   }, {
     label: 'Festgeld',
-    href: '#festgeld'
+    href: '/so-sicherte-sich-daniela'
   }, {
     label: 'Artikel'
   }];
@@ -69,7 +69,7 @@ const Festgeld = () => {
 
             {/* Main image */}
             <figure className="mb-12">
-              <img alt="Braun Investments Festgeld-Spezial" className="w-full h-auto rounded-lg shadow-lg" src="/lovable-uploads/0e4fdd1e-ed96-4b57-8f09-0b039173bd10.png" />
+              <img alt="Braun Investments Festgeld-Spezial" className="w-full h-auto rounded-lg shadow-lg" src="/lovable-uploads/a7b3a42b-1469-448e-9c1a-5e6eb959adb9.png" />
               <figcaption className="mt-4 text-xl text-muted-foreground leading-relaxed font-nexa">Exklusiv: 4,1% Festgeld & 3,2% Tagesgeld bei Santander Bank</figcaption>
             </figure>
 
