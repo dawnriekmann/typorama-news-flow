@@ -22,7 +22,7 @@ const Festgeld = () => {
     year: 'numeric'
   });
   const articleSections = [{
-    title: "Ein exklusives Zinsangebot übertrifft gerade alle Erwartungen – 4,1 % Festgeld für 12 Monate, 3,2 % auf Tagesgeld. Aber nur für Schnellentschlossene.",
+    title: "Ein exklusives Zinsangebot übertrifft gerade alle Erwartungen",
     content: "München-Sendling, Donnerstagvormittag. Daniela R. ist keine Finanzprofi, keine Aktionärin, keine Traderin. Sie ist 54, Buchhalterin, und legt seit Jahren jeden Euro zurück, der übrig bleibt. \"Früher hab ich das einfach auf dem Sparkonto liegen lassen – 0,25 %. Wenn überhaupt. Ich dachte: Lieber sicher als riskant.\" Bis ein Kollege ihr einen Link schickte. Braun Investments. 4,1 % Zinsen – garantiert für 12 Monate. Kein Girokonto nötig. Keine Kleingedruckte Fallen. \"Ich hab erst gedacht: Das ist zu gut, um wahr zu sein\", sagt sie heute – mit einem anderen Blick aufs Sparen."
   }, {
     title: "Rechnen statt resignieren: Zinsen sind zurück",
