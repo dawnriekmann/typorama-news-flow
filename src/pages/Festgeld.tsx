@@ -70,9 +70,7 @@ const Festgeld = () => {
             {/* Main image */}
             <figure className="mb-12">
               <img alt="Braun Investments Festgeld-Spezial" className="w-full h-auto rounded-lg shadow-lg" src="https://i.imgur.com/Xh2obM0.png" />
-              <figcaption className="mt-4 text-xl text-muted-foreground leading-relaxed font-nexa">
-                Braun Investments Festgeld-Spezial
-              </figcaption>
+              <figcaption className="mt-4 text-xl text-muted-foreground leading-relaxed font-nexa">Exklusiv: 4,1% Festgeld & 3,2% Tagesgeld bei Santander Bank</figcaption>
             </figure>
 
             {/* Article content */}
