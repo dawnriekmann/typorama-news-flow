@@ -39,10 +39,10 @@
 
     --radius: 0.5rem;
 
-    /* Finance-specific colors changed to orange tones */
-    --finance-primary: 25 95% 53%;
-    --finance-secondary: 25 100% 97%;
-    --finance-accent: 25 100% 90%;
+    /* Finance-specific colors changed to modern blue tones */
+    --finance-primary: 220 100% 50%;
+    --finance-secondary: 220 100% 97%;
+    --finance-accent: 220 100% 90%;
     --finance-success: 142 71% 45%;
     --finance-warning: 38 92% 50%;
     --finance-error: 0 84% 60%;
@@ -83,7 +83,7 @@
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
 
-    --finance-primary: 25 95% 53%;
+    --finance-primary: 220 100% 50%;
   }
 }
 

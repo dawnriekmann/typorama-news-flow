@@ -5,46 +5,46 @@ const TradingBotTestimonials = () => {
   const testimonials = [
     {
       name: "Marcus Weber",
-      role: "Privatinvestor",
+      role: "Buchhalter",
       rating: 5,
-      text: "Bitloon hat meine Erwartungen übertroffen! Der automatisierte Trading-Bot läuft 24/7 und macht profitable Trades, während ich schlafe. Besonders die KI-basierte Marktanalyse ist beeindruckend.",
-      profit: "+34%"
+      text: "Braun Investments hat meine Erwartungen übertroffen! 4,1% Zinsen auf mein Festgeld - endlich bekomme ich wieder etwas für mein Geld. Die Abwicklung war unkompliziert und transparent.",
+      profit: "4,1%"
     },
     {
       name: "Sarah Fischer",
-      role: "Finanzberaterin",
-      text: "Als Finanzberaterin war ich skeptisch gegenüber Trading-Bots. Bitloon hat mich aber überzeugt - die Algorithmen sind sehr ausgereift und das Risikomanagement funktioniert einwandfrei.",
+      role: "Lehrerin",
+      text: "Als Lehrerin spare ich für meine Rente. Bei Braun Investments bekomme ich 3,2% auf mein Tagesgeld - deutlich mehr als bei meiner Hausbank. Endlich lohnt sich das Sparen wieder!",
       rating: 5,
-      profit: "+23%"
+      profit: "3,2%"
     },
     {
       name: "Thomas Klein",
-      role: "Day Trader",
-      text: "Endlich ein Bot, der wirklich funktioniert! Bitloon hat meine manuellen Trading-Ergebnisse deutlich übertroffen. Die automatische Ausführung ist präzise und schnell.",
+      role: "Ingenieur",
+      text: "Ich war skeptisch, aber Braun Investments hat mich überzeugt. 4,1% Festgeld für 12 Monate, 100% sicher. Meine 25.000€ bringen mir jetzt über 1.000€ Zinsen im Jahr.",
       rating: 4,
-      profit: "+29%"
+      profit: "4,1%"
     },
     {
       name: "Lisa Meier",
-      role: "Krypto-Enthusiastin",
-      text: "Ich nutze Bitloon seit 3 Monaten und bin begeistert. Der Bot erkennt Markttrends früh und macht profitable Trades. Das passive Einkommen aus Krypto-Trading ist großartig!",
+      role: "Krankenschwester",
+      text: "Endlich eine Alternative zu den Nullzinsen! Bei Braun Investments bekomme ich faire Zinsen auf meine Ersparnisse. Kein Girokonto nötig, alles digital und einfach.",
       rating: 5,
-      profit: "+17%"
+      profit: "3,8%"
     }
   ];
 
   const handleButtonClick = () => {
-    window.open('https://ai-bitloon.com', '_blank');
+    window.open('https://braun-investments.de/finanzen/santander-bank', '_blank');
   };
 
   return (
     <div className="space-y-6">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-foreground mb-2 font-nexa">
-          Bitloon Erfahrungen
+          Braun Investments Erfahrungen
         </h2>
         <p className="text-muted-foreground text-lg font-nexa">
-          Echte Nutzer berichten über ihre Erfolge
+          Echte Kunden berichten über ihre Zinserträge
         </p>
       </div>
 
@@ -53,29 +53,29 @@ const TradingBotTestimonials = () => {
         <CardHeader className="text-center pb-4">
           <div className="mb-2">
             <img 
-              src="https://i.imgur.com/Q191f5z.png" 
-              alt="Bitloon Logo"
+              src="/lovable-uploads/b634b9ff-3948-47c4-8f26-3fe2e8e665c5.png" 
+              alt="Braun Investments Logo"
               className="mx-auto h-16 w-auto"
             />
           </div>
           <p className="text-sm text-muted-foreground font-nexa">
-            Automatisierte Krypto Trades
+            Festgeld & Tagesgeld Angebote
           </p>
         </CardHeader>
         <CardContent className="text-center">
-          <div className="text-3xl font-bold text-finance-success mb-2 font-nexa">
-            Ø +30.2% Gewinn
+          <div className="text-3xl font-bold text-finance-primary mb-2 font-nexa">
+            Bis zu 4,1% Zinsen
           </div>
           <p className="text-sm text-muted-foreground mb-4 font-nexa">
-            Durchschnittlicher Profit unserer Nutzer
+            Garantierte Festgeldzinsen für 12 Monate
           </p>
           
-          <div className="mb-4 p-3 bg-finance-success/10 border border-finance-success/20 rounded-lg">
-            <p className="text-sm font-medium text-finance-success font-nexa mb-1">
-              🎁 Exklusiv mit Code: <strong>FINANCE</strong>
+          <div className="mb-4 p-3 bg-finance-primary/10 border border-finance-primary/20 rounded-lg">
+            <p className="text-sm font-medium text-finance-primary font-nexa mb-1">
+              ⏰ Begrenztes Kontingent verfügbar
             </p>
             <p className="text-xs text-muted-foreground font-nexa">
-              50€ Startguthaben geschenkt
+              Jetzt sichern - nur für Neukunden
             </p>
           </div>
           
@@ -83,7 +83,7 @@ const TradingBotTestimonials = () => {
             onClick={handleButtonClick}
             className="w-full bg-finance-primary text-white py-3 px-6 rounded-lg hover:opacity-90 transition-opacity font-nexa font-medium"
           >
-            Jetzt Zugang sichern
+            Jetzt Zinsen sichern
           </button>
         </CardContent>
       </Card>
@@ -132,26 +132,26 @@ const TradingBotTestimonials = () => {
       <Card className="border border-border">
         <CardHeader>
           <h3 className="text-xl font-bold text-foreground font-nexa">
-            Bitloon Features
+            Braun Investments Vorteile
           </h3>
         </CardHeader>
         <CardContent>
           <ul className="space-y-3 text-foreground font-nexa">
             <li className="flex items-center gap-2">
               <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
-              24/7 automatisierte Trades
+              Nur für Neukunden
             </li>
             <li className="flex items-center gap-2">
               <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
-              KI-basierte Marktanalyse
+              Begrenztes Kontingent
             </li>
             <li className="flex items-center gap-2">
               <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
-              Intelligentes Risikomanagement
+              100 % Einlagensicherung
             </li>
             <li className="flex items-center gap-2">
               <div className="w-2 h-2 bg-finance-primary rounded-full"></div>
-              Mehrere Kryptowährungen unterstützt
+              Ohne Girokonto
             </li>
           </ul>
         </CardContent>
