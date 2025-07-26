@@ -55,7 +55,7 @@ const TradingBotTestimonials = () => {
             <img 
               src="/lovable-uploads/b634b9ff-3948-47c4-8f26-3fe2e8e665c5.png" 
               alt="Braun Investments Logo"
-              className="mx-auto h-16 w-auto"
+              className="mx-auto h-12 w-auto object-contain"
             />
           </div>
           <p className="text-sm text-muted-foreground font-nexa">
@@ -83,7 +83,7 @@ const TradingBotTestimonials = () => {
             onClick={handleButtonClick}
             className="w-full bg-finance-primary text-white py-3 px-6 rounded-lg hover:opacity-90 transition-opacity font-nexa font-medium"
           >
-            Jetzt Zinsen sichern
+            Jetzt Angebot sichern
           </button>
         </CardContent>
       </Card>
