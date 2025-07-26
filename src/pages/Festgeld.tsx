@@ -9,8 +9,8 @@ const Festgeld = () => {
     label: 'Home',
     href: '/'
   }, {
-    label: 'Krypto',
-    href: '#krypto'
+    label: 'Festgeld',
+    href: '#festgeld'
   }, {
     label: 'Artikel'
   }];
@@ -24,26 +24,23 @@ const Festgeld = () => {
   });
 
   const articleSections = [{
-    title: "Rechnen statt Raten: Der neue Weg, im Krypto-Markt Geld zu verdienen",
-    content: "Hamburg-Altona, Dienstagmorgen. Draußen Nieselregen, drinnen flackern leuchtende Kursbewegungen über sechs Monitore. Jonas M. sitzt entspannt vor seiner Trading-Umgebung. \"Ich analysiere hier nichts mehr selbst\", sagt er mit einem leichten Grinsen. \"Das übernimmt längst Bitloon.\" Was klingt wie Zukunftsmusik, ist für Jonas Alltag: Ein vollautomatischer Krypto-Trading-Bot, der eigenständig handelt, auswertet und Gewinne realisiert – rund um die Uhr."
+    title: "Ein exklusives Zinsangebot übertrifft gerade alle Erwartungen – 4,1 % Festgeld für 12 Monate, 3,2 % auf Tagesgeld. Aber nur für Schnellentschlossene.",
+    content: "München-Sendling, Donnerstagvormittag. Daniela R. ist keine Finanzprofi, keine Aktionärin, keine Traderin. Sie ist 54, Buchhalterin, und legt seit Jahren jeden Euro zurück, der übrig bleibt. \"Früher hab ich das einfach auf dem Sparkonto liegen lassen – 0,25 %. Wenn überhaupt. Ich dachte: Lieber sicher als riskant.\" Bis ein Kollege ihr einen Link schickte. Braun Investments. 4,1 % Zinsen – garantiert für 12 Monate. Kein Girokonto nötig. Keine Kleingedruckte Fallen. \"Ich hab erst gedacht: Das ist zu gut, um wahr zu sein\", sagt sie heute – mit einem anderen Blick aufs Sparen."
   }, {
-    title: "Vom Excel-Angestellten zum Architekten eines autonomen Systems",
-    content: "Vor drei Jahren noch arbeitete Jonas in einem Großkonzern – lange Meetings, starre Abläufe. In seiner Freizeit begann er, sich intensiv mit dem Kryptomarkt und maschinellem Lernen zu beschäftigen. Was ihn faszinierte: die Unberechenbarkeit menschlichen Verhaltens – und die Vorhersagbarkeit von Mustern dahinter. \"Irgendwann wurde mir klar, dass ich nicht selbst besser werden musste – ich musste einen bauen, der automatisch besser handelt als ich.\" Die Idee zu Bitloon war geboren."
+    title: "Rechnen statt resignieren: Zinsen sind zurück",
+    content: "Seit Jahren liegt die Realverzinsung bei klassischen Sparkonten unter der Inflationsrate. Viele haben sich daran gewöhnt. Daniela nicht. Sie klickte sich durch das Angebot auf der Vergleichsseite von Braun Investments – einem unabhängigen Vermittler, der Konditionen verhandelt, die man bei Banken direkt oft nicht bekommt. \"Was mich überzeugt hat? Dass ich kein neues Girokonto brauchte. Ich wollte nicht mein ganzes Banking umstellen – nur einen Teil besser anlegen.\" Also legte sie 20.000 Euro für ein Jahr fest. 4,1 % garantierte Zinsen – das ergibt 820 Euro Rendite. Ohne Risiko, ohne Schwankungen. Einfach berechenbar."
   }, {
-    title: "Der Bot: Bitloon",
-    content: "Bitloon ist ein autonomer Trading-Bot, speziell für den hochvolatilen Kryptomarkt entwickelt. Anders als Signal-Dienste oder halbautomatische Tools handelt Bitloon vollständig selbstständig – ohne menschliche Bestätigung oder manuelle Eingriffe. Was Bitloon auswertet: Kursbewegungen in Echtzeit auf Plattformen wie Binance, Coinbase, Kraken; Wallet-Aktivitäten großer Marktteilnehmer (sog. \"Whales\") direkt aus der Blockchain; Marktstimmungen aus Krypto-Twitter, Telegram-Gruppen und Newsfeeds; On-Chain-Daten: Liquidität, Volumen, Transaktionshäufungen; Korrelationen und Volatilitätszonen zwischen BTC, ETH, SOL, uvm. \"Der Bot sucht nicht nach Trends – er rechnet Wahrscheinlichkeiten. Und handelt dann schneller als jeder Mensch reagieren könnte\", erklärt Jonas."
+    title: "Der Anbieter: Braun Investments",
+    content: "Braun Investments ist kein Bankhaus – sondern ein spezialisierter Finanzdienstleister mit Fokus auf sichere, renditestarke Anlagen. Die Zinsen stammen von der Santander Bank, die Konten werden dort geführt – aber der Zugang ist exklusiv über Braun. Warum? \"Wir haben ein Sonderkontingent verhandelt, das nur für unsere Kunden zugänglich ist\", erklärt Sebastian Gerber, Senior-Berater für Festgeldstrategien. Tagesgeld mit 3,2 % p.a. gibt's ebenfalls – für alle, die flexibel bleiben wollen. Und das Beste: Alles ist 100 % gesetzlich abgesichert, bis 100.000 € pro Kunde – wie bei jedem deutschen Bankinstitut."
   }, {
-    title: "Der Praxistest: 200 € Start – 543 € Ergebnis",
-    content: "Wir wollten es wissen: Funktioniert Bitloon wirklich? Jonas richtet gemeinsam mit uns ein Testkonto bei einem regulierten Krypto-Broker ein. Startkapital: 200 €. Bitloon wird aktiviert, im konservativen Modus (geringes Risiko, harte Stop-Loss-Grenzen). Überwachungszeitraum: 28 Stunden – keine manuellen Eingriffe, keine Anpassungen. Das Ergebnis: 543 € Kontostand nach Ablauf der Testphase. Bitloon führte über 60 Einzel-Trades aus – größtenteils kleine Profite, aber mit hoher Trefferquote und fast ohne Drawdown. \"Das System ist nicht spektakulär\", sagt Jonas. \"Aber es ist strukturiert. Und es macht keine emotionalen Fehler.\""
+    title: "Kein Berater-Termin. Kein Papierkram. Kein Risiko.",
+    content: "\"Ich hab alles online gemacht\", sagt Daniela. \"Formular ausfüllen, Verifizierung per App, Kontoeröffnung. Kein langes Warten, keine Unterschriften-Post.\" Was sie besonders beruhigte: Es gab keine versteckten Gebühren. Keine \"Kontoführungsentgelte\". Und keinen Zwang, irgendetwas anderes abzuschließen. \"Ich war überrascht, wie einfach das ging. Und ich frage mich heute: Warum hab ich das nicht schon vor drei Jahren gemacht?\""
   }, {
-    title: "Kein Bauchgefühl. Kein Chart-Gefluche. Nur Wahrscheinlichkeiten.",
-    content: "Jonas betont: Bitloon ersetzt nicht den Verstand – aber er ersetzt die Emotion. Wo viele Hobby-Traders bei jedem Dip nervös werden, bleibt Bitloon stoisch. Reagiert nur auf Daten. Und genau das scheint den Unterschied zu machen. \"Ich verspreche niemandem Reichtum. Aber ich zeige, dass es eine Alternative gibt zu Panik, YouTube-Gurus und Chart-Roulette.\""
-  }, {
-    title: "Die stille Community dahinter",
-    content: "Inzwischen setzen über 20.000 Nutzer weltweit Bitloon ein – mit Einsätzen zwischen 100 und 10.000 Euro. Viele berichten von konstanten Ergebnissen, einem besseren Risikogefühl und – ganz wichtig – mehr Freizeit. Denn Bitloon läuft 24/7. Ohne Pause. Ohne \"mal kurz schauen\". Und genau das macht ihn für viele zur echten Alternative im Kryptomarkt."
+    title: "Jetzt oder nie: Das Kontingent ist begrenzt",
+    content: "Die Nachfrage ist hoch. Laut Braun Investments sei bereits ein Großteil der Festgeldplätze vergeben. Sobald das Sonderkontingent ausgeschöpft ist, wird das Angebot gestoppt. \"Wir bekommen jeden Tag Anfragen\", so Gerber. \"Und wir merken: Die Leute haben genug von Nullzinsen. Sie wollen etwas, das sich wirklich lohnt – aber sicher ist.\" Daniela R. hat sich ihren Platz gesichert. Und wenn sie ehrlich ist: \"Es fühlt sich gut an, mal nicht abzuwarten – sondern zu handeln. Endlich bekomme ich etwas für mein Erspartes.\""
   }, {
     title: "Interesse?",
-    content: "Bitloon ist aktuell nur limitiert verfügbar. Wer sich rechtzeitig informiert, kann eine Lizenz erwerben, den Bot selbst einrichten und auf dem eigenen Börsenkonto laufen lassen – komplett eigenständig, mit vollem Kapitalzugriff. Exklusiv für unsere Leser: Mit dem Code \"FINANCE\" erhalten Sie bei der Registrierung 50€ Startguthaben geschenkt. Mehr Infos zu Bitloon, zur Technologie und zu den Voraussetzungen findest du unter: https://ai-bitloon.com"
+    content: "Das exklusive Festgeld- und Tagesgeldangebot ist nur über Braun Investments zugänglich. Keine Bankberatung, keine Umwege – direkt, digital, sicher. Jetzt informieren unter: https://braun-investments.de/finanzen/santander-bank"
   }];
   return <div className="min-h-screen bg-background text-foreground font-nexa">
       <Header showBreadcrumb={true} breadcrumbItems={breadcrumbItems} />
@@ -56,7 +53,7 @@ const Festgeld = () => {
             <header className="mb-10">
               {/* Title */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground font-nexa">
-                So verdiente Jonas M. mit KI Millionen an der Börse
+                So sicherte sich Daniela R. 4,1 % Zinsen – ohne Bankfiliale, ohne Girokonto
               </h1>
 
               {/* Star Rating */}
@@ -76,9 +73,9 @@ const Festgeld = () => {
 
             {/* Main image */}
             <figure className="mb-12">
-              <img alt="Bitloon Trading Bot" className="w-full h-auto rounded-lg shadow-lg" src="https://i.imgur.com/Xh2obM0.png" />
+              <img alt="Braun Investments Festgeld-Spezial" className="w-full h-auto rounded-lg shadow-lg" src="https://i.imgur.com/Xh2obM0.png" />
               <figcaption className="mt-4 text-xl text-muted-foreground leading-relaxed font-nexa">
-                Der autonome Trading-Bot Bitloon revolutioniert das Krypto-Trading durch vollautomatische Handelsentscheidungen.
+                Braun Investments Festgeld-Spezial
               </figcaption>
             </figure>
 
