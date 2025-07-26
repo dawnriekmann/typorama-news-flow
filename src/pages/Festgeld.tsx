@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
 import StarRating from '@/components/StarRating';
 import TradingBotTestimonials from '@/components/TradingBotTestimonials';
-
 const Festgeld = () => {
   const breadcrumbItems = [{
     label: 'Home',
@@ -22,7 +21,6 @@ const Festgeld = () => {
     month: 'long',
     year: 'numeric'
   });
-
   const articleSections = [{
     title: "Ein exklusives Zinsangebot übertrifft gerade alle Erwartungen – 4,1 % Festgeld für 12 Monate, 3,2 % auf Tagesgeld. Aber nur für Schnellentschlossene.",
     content: "München-Sendling, Donnerstagvormittag. Daniela R. ist keine Finanzprofi, keine Aktionärin, keine Traderin. Sie ist 54, Buchhalterin, und legt seit Jahren jeden Euro zurück, der übrig bleibt. \"Früher hab ich das einfach auf dem Sparkonto liegen lassen – 0,25 %. Wenn überhaupt. Ich dachte: Lieber sicher als riskant.\" Bis ein Kollege ihr einen Link schickte. Braun Investments. 4,1 % Zinsen – garantiert für 12 Monate. Kein Girokonto nötig. Keine Kleingedruckte Fallen. \"Ich hab erst gedacht: Das ist zu gut, um wahr zu sein\", sagt sie heute – mit einem anderen Blick aufs Sparen."
@@ -52,9 +50,7 @@ const Festgeld = () => {
             {/* Article header */}
             <header className="mb-10">
               {/* Title */}
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground font-nexa">
-                So sicherte sich Daniela R. 4,1 % Zinsen – ohne Bankfiliale, ohne Girokonto
-              </h1>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground font-nexa">So sicherte sich Daniela R. 4,1 % Zinsen für 12 Monate</h1>
 
               {/* Star Rating */}
               <div className="mb-6">
@@ -131,5 +127,4 @@ const Festgeld = () => {
       </footer>
     </div>;
 };
-
 export default Festgeld;
